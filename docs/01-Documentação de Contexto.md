@@ -1,46 +1,38 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+# Introdução
+
+A produção e o consumo de energia tem sido tema de grandes discussões ao redor do mundo, que passam desde as fontes energéticas até mesmo o consumo consciente. 
+O Brasil é um país rico  em recursos hídricos, cerca de 12% da disponibilidade de água doce do planeta está em território brasileiro. Enquanto a Região Norte concentra aproximadamente 80% da água disponível, regiões próximas ao Oceano Atlântico possuem menos de 3% dos recursos hídricos do país. Contudo  as mudanças climáticas geram  instabilidade hídrica e em determinadas épocas do ano a redução drástica dos níveis das usinas hidrelétricas.
+Os efeitos da escassez de água são sentidas nas contas de energia. Isso porque, com a falta de recurso hídrico, é preciso concentrar a produção em usinas termelétricas para atender à demanda do país. Elas são mais caras e funcionam com base na queima de combustíveis. 
+Com foco na redução dos riscos de déficit de energia e diminuição no custo de produção,  a matriz energética do Brasil vem sofrendo alterações ao longo dos anos, ampliando a diversidade das fontes de energia, visando a sustentabilidade. Como mostra o gráfico abaixo há investimento em Energias limpas e renováveis como Energia Eólica, Fotovoltaica e Biomassa.
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t4-pmv-ads-2023-1-e2-proj-int-t4-g2/blob/main/docs/img/figura1.png">
+
+Contudo, mesmo que haja ações para produção de energia limpa é essencial que a população faça o consumo consciente do recurso disponível. De acordo com EPE, o consumo nacional de energia elétrica foi de 42.837 GWh em janeiro de 2023, crescimento de 0,6% em comparação com mesmo mês de 2022, esses dados demonstram um comportamento da população e nos alerta para o risco de um crescimento exponencial do consumo de energia que nos levará a necessidades maiores na produção, ou seja um looping infinito de geração e demanda que não será sustentável a longo prazo.
+Outras alternativas de geração de energia tem sido a instalação residencial e em  pequenas empresas de placas fotovoltaicas com intuito de reduzir o valor pago às concessionárias de energia. A geração de energia solar teve um crescimento acima das estimativas conforme mostra a figura 2.
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t4-pmv-ads-2023-1-e2-proj-int-t4-g2/blob/main/docs/img/figura2.jpeg">
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Conforme exposto, o problema que se busca resolver é possibilitar ao usuário calcular e prever o consumo em KWH e valores monetários com base nos equipamentos e eletrodomésticos. Outra possibilidade é dimensionar a quantidade de placas solares e inversores necessários para realização da instalação fotovoltaica.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo da aplicação é calcular o consumo de energia em KWH, e estipular pelo consumo a quantidade de placas solares para atender suas necessidades de custo energético.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, podemos ressaltar:
+     >Identificar o consumo de cada equipamento e apresentar um resultado em KWH.
+     >Verificar a variação de valores de energia elétrica de acordo com  a bandeira tarifária.
+     >Possibilitar ao usuário a projeção financeira de um sistema de placas solares com a criação de uma lista de componentes para a montagem do sistema fotovoltaico.
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Apesar das novas tendências tecnológicas permitirem a produção energética menos danosa ao meio ambiente, não é o bastante para resolver a problemática do consumo descontrolado. Assim sendo, faz-se necessário o desenvolvimento e divulgação de informações que ajude o usuário a catalogar seus gastos energéticos e dar opções para o consumo consciente.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t4-pmv-ads-2023-1-e2-proj-int-t4-g2/blob/main/docs/img/figura3.jpeg">
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Busca-se desenvolver uma aplicação interativa voltada para proprietários de pequenas, micro empresas e residências de grande consumo . Trata-se de um público que visa gerenciar o consumo de energia com intuito de buscar soluções de redução de gastos com investimentos médios e retorno a médio e curto prazo e que geralmente optam pela instalação de placas fotovoltaicas.
