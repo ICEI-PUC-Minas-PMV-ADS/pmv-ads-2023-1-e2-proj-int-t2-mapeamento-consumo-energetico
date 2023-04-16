@@ -18,7 +18,7 @@ Por exemplo:
 | Caso de Teste 	| CT-02 – Escolha de perfil	|
 |Requisito Associado | RF-02	- A aplicação deve permitir que o usuário crie uma conta e escolha entre perfil residencial ou empresarial. |
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar a escolha de perfil. |
-| Passos 	| - Acessar o navegador; <br> - Informar o endereço do site; <br> - Clicar no botão "Perfil residencial" ou "Perfil empresarial". <br>|
+| Passos 	| - Acessar o navegador; <br> - Informar o endereço do site; <br> - Fazer o rolamento no site até a etapa de perfil; <br> - Clicar no botão "Perfil residencial" ou "Perfil empresarial". <br>|
 |Critério de Êxito | - A escolha foi realizada com sucesso. |
 
  
