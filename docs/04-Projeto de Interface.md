@@ -10,17 +10,48 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 <div aling="center"> <img src= "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t4-pmv-ads-2023-1-e2-proj-int-t4-g2/blob/abbcc4fa4107ba3d4301a84afb5147b6debed446/docs/img/Diagrama%20de%20fluxo.png"> </div>
 
 
-## Wireframes
+## Wireframe interativo
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+Conforme o diagrama de fluxo do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. Para visualizar o wireframe interativo.
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 11. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles: 
+
+**Cabeçalho** - local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);
+
+**Conteúdo** - apresenta o conteúdo da tela em questão;
+
+**Scroll** - permite a continuação da pagina segmentada em um único bloco
+
+<div aling="center"> <img src= "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico/blob/main/docs/img/wireframe1.jpeg"> </div>
+
+## Tela - Home-Page
+
+A tela de home-page mostra informações de destaque a partir do banco de dados utilizado pelo sistema. <br>
+Com base na estrutura padrão, o bloco de conteúdo traz as informações básicas (imagem, texto, título e ícone continuar).<br>
+Componente de quem somos que permite o novo usuário compreender o site de maneira fácil e sucinta.<br>
+Componente de informações de consumo/Carrossel de imagens que informará dados relevantes ao usuário.<br>
+
+<div aling="center"> <img src= "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico/blob/main/docs/img/wireframe2.jpeg"> </div>
+
+## Tela - Escolha de usuário <br>
+A tela de escolha de usuário apresenta duas opções com funções distintas(Residencial e empresarial).<br>
+
+<div aling="center"> <img src= "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico/blob/main/docs/img/wireframe3.jpeg"> </div> <br>
+
+## Tela - Usuário residencial <br>
+
+<div aling="center"> <img src= "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico/blob/main/docs/img/wireframe4.jpeg"> </div> <br>
+
+## Tela - Usuário empresarial
+
+<div aling="center"> <img src= "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico/blob/main/docs/img/wireframe5.jpeg"> </div> <br>
+
+## Tela - Login 
+A tela que permite o salvamento das informações e a manutenção da base de usuários <br>
+
+<div aling="center"> <img src= "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico/blob/main/docs/img/wireframe7.jpg"> </div> <br>
+
+## Tela - Resultado Final
+A tela de Resultado final apresenta diversas funções (cálculo em kwh, valor em reais, botão para orçamento e dicas de uso) <br>
+
+<div aling="center"> <img src= "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico/blob/main/docs/img/wireframe6.jpeg"> </div> <br>
