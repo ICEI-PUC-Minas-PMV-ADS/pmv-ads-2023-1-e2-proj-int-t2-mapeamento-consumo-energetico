@@ -1,15 +1,35 @@
 # Plano de Testes de Usabilidade
+Teste de usabilidade
+O objetivo é levar o usuário a criar uma conta à qual ele possa optar entre o perfil empresarial ou o perfil residencial. Após a execução é realizado um teste que analisa as principais dificuldades encontradas ao acessar as páginas. Serão feitas melhorias a fim de proporcionar ao usuário mais facilidade e satisfação.
+TESTE QUALITATIVO:
+⦁Seleção do público alvo:
+Empresarial
+Residencial
+⦁Abordagem:
+            	Teste / Pesquisa
+		Simulação de uso
+⦁Quantidade: 
+5 participantes de cada perfil
 
-Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
+EXECUÇÃO:
+⦁1 participante + 2 pesquisadores
+⦁Equipamentos adequados
+⦁Anonimato do participante
+⦁Autorização de imagem
 
-Um plano de teste de usabilidade deverá conter: o detalhamento dos objetivos (em função dos requisitos levantados/implementados), dos critérios que serão utilizados para a seleção dos participantes, dos procedimentos a serem adotados pelos condutores de teste (por exemplo: os testes serão presenciais ou remotos? o método será observação direta, medição ou avaliação?), das tarefas a serem executadas, dos dados a serem coletados (quantidade de cliques, número de erros, tempo etc.), a ordem de execução das tarefas e das etapas da sessão de teste, recursos demandados, métricas coletadas etc.
+MÉTRICAS:
+⦁SUS – System Usability Scale 
+⦁Efetividade – os usuários conseguem completar seus objetivos?
+⦁Eficiência – quanto esforço e recursos são necessários para isso?
+⦁Satisfação – a experiência foi satisfatória?
 
-Para cada voluntário do teste, é fundamental coletar e apresentar todos os dados/métricas previamente definidos, mas não se esqueça: atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar o voluntário, deverá ser apresentado).
+RESULTADOS:
+    SÃO IMPORTANTES
+⦁Pontos de atenção
+⦁Comportamento
+⦁Ponderações e comentários positivos
+⦁Comentários e observações de situações de dificuldade e fracasso
+⦁Sugestões propostas pelo participante
 
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
 
-> **Links Úteis**:
-> - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+
