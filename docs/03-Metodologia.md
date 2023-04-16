@@ -97,10 +97,3 @@ As ferramentas empregadas no projeto são:
 
 #### Ferramentas para wireframing (desenhos de tela)
 > - `MarvelApp:`Software escolhido para o desenvolvimento do layout das telas do site.
-
-
-## Diagrama de classes
-<div align="center"> <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico/blob/main/docs/img/Diagrama%20de%20classe.png"> </div>
-
-## Diagrama de Entidades e Relacionamentos
-<div align="center"> <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t4-pmv-ads-2023-1-e2-proj-int-t4-g2/blob/main/docs/img/entidadesErelacionamentos.png"></div>
