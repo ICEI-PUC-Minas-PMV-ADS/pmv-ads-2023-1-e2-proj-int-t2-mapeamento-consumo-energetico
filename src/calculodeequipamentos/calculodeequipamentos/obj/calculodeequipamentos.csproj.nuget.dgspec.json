@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eudes\\Desktop\\calculodeequipamentos\\calculodeequipamentos\\calculodeequipamentos.csproj": {}
+    "C:\\Users\\jones\\Source\\Repos\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico\\src\\calculodeequipamentos\\calculodeequipamentos\\calculodeequipamentos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eudes\\Desktop\\calculodeequipamentos\\calculodeequipamentos\\calculodeequipamentos.csproj": {
+    "C:\\Users\\jones\\Source\\Repos\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico\\src\\calculodeequipamentos\\calculodeequipamentos\\calculodeequipamentos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eudes\\Desktop\\calculodeequipamentos\\calculodeequipamentos\\calculodeequipamentos.csproj",
+        "projectUniqueName": "C:\\Users\\jones\\Source\\Repos\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico\\src\\calculodeequipamentos\\calculodeequipamentos\\calculodeequipamentos.csproj",
         "projectName": "calculodeequipamentos",
-        "projectPath": "C:\\Users\\eudes\\Desktop\\calculodeequipamentos\\calculodeequipamentos\\calculodeequipamentos.csproj",
-        "packagesPath": "C:\\Users\\eudes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eudes\\Desktop\\calculodeequipamentos\\calculodeequipamentos\\obj\\",
+        "projectPath": "C:\\Users\\jones\\Source\\Repos\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico\\src\\calculodeequipamentos\\calculodeequipamentos\\calculodeequipamentos.csproj",
+        "packagesPath": "C:\\Users\\jones\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jones\\Source\\Repos\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico\\src\\calculodeequipamentos\\calculodeequipamentos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\eudes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jones\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,6 +44,28 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
