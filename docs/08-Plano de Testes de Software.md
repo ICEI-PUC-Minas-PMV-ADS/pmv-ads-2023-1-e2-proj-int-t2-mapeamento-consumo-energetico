@@ -20,7 +20,7 @@ Por exemplo:
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de login de usuários para que esses consigam logar e gerenciar seu perfil. |
 | Objetivo do Teste 	| Verificar se o usuário consegue logar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (usuário e senha) <br> - Clicar em "Entrar" |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Preencher os campos obrigatórios (usuário e senha) <br> - Clicar em "Entrar" |
 |Critério de Êxito | - O login foi realizado com sucesso. |
 |  	|  	|
 | Caso de Teste 	| CT-03 – Escolha de perfil	|
