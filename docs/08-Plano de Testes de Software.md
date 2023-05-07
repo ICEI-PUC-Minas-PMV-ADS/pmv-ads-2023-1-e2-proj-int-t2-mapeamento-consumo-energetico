@@ -8,7 +8,7 @@ Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o
 
 Por exemplo:
  
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil - O TESTE FALHOU! ** 	|
+| **Caso de Teste** 	| **CT-01 – Cadastrar perfil - O TESTE FALHOU!** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
 | Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
@@ -16,7 +16,7 @@ Por exemplo:
 |Critério de Êxito | - O cadastro foi realizado com sucesso. |
 |  	|  	|
  
-| **Caso de Teste** 	| **CT-02 – Realizar o login - TESTE REALIZADO COM SUCESSO ** 	|
+| **Caso de Teste** 	| **CT-02 – Realizar o login - TESTE REALIZADO COM SUCESSO!** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de login de usuários para que esses consigam logar e gerenciar seu perfil. |
 | Objetivo do Teste 	| Verificar se o usuário consegue logar na aplicação. |
