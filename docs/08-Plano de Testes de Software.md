@@ -8,14 +8,22 @@ Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o
 
 Por exemplo:
  
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
+| **Caso de Teste** 	| **CT-01 – Cadastrar perfil - O TESTE FALHOU! ** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
 | Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Clicar em "Registrar" |
 |Critério de Êxito | - O cadastro foi realizado com sucesso. |
 |  	|  	|
-| Caso de Teste 	| CT-02 – Escolha de perfil	|
+ 
+| **Caso de Teste** 	| **CT-02 – Realizar o login - TESTE REALIZADO COM SUCESSO ** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de login de usuários para que esses consigam logar e gerenciar seu perfil. |
+| Objetivo do Teste 	| Verificar se o usuário consegue logar na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (usuário e senha) <br> - Clicar em "Entrar" |
+|Critério de Êxito | - O login foi realizado com sucesso. |
+|  	|  	|
+| Caso de Teste 	| CT-03 – Escolha de perfil	|
 |Requisito Associado | RF-02	- A aplicação deve permitir que o usuário crie uma conta e escolha entre perfil residencial ou empresarial. |
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar a escolha de perfil. |
 | Passos 	| - Acessar o navegador; <br> - Informar o endereço do site; <br> - Fazer o rolamento no site até a etapa de perfil; <br> - Clicar no botão "Perfil residencial" ou "Perfil empresarial". <br>|
