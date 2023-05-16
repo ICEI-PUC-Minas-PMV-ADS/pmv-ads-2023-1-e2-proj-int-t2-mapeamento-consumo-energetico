@@ -1,32 +1,52 @@
-namespace calculodeequipamentos
+
+using calculodeequipamentos.Context;
+using calculodeequipamentos.Repositorio;
+using Microsoft.EntityFrameworkCore;
+
+
+
+#nullable disable
+
+namespace calc
 {
-	public class Program
-	{
-		public static void Main(string[] args)
-		{
-			var builder = WebApplication.CreateBuilder(args);
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var builder = WebApplication.CreateBuilder(args);
 
-			// Add services to the container.
-			builder.Services.AddControllersWithViews();
+            // Add services to the container.
+            string mySqlConnection =
+                    builder.Configuration.GetConnectionString("DefaultConnection");
 
-			var app = builder.Build();
+            builder.Services.AddDbContext<AppDbContext>(options =>
+                options.UseSqlServer
+                ("Data Source=DESKTOP-GFK2EGS\\;Initial Catalog=EquipamentosCadastrados; Integrated Security=True; Encrypt=False"));
+            builder.Services.AddScoped<IEquipamentoRepositorio, EquipamentoRepositorio>();
 
-			// Configure the HTTP request pipeline.
-			if (!app.Environment.IsDevelopment())
-			{
-				app.UseExceptionHandler("/Home/Error");
-			}
-			app.UseStaticFiles();
 
-			app.UseRouting();
+            builder.Services.AddControllersWithViews();
 
-			app.UseAuthorization();
 
-			app.MapControllerRoute(
-				name: "default",
-				pattern: "{controller=Home}/{action=Index}/{id?}");
 
-			app.Run();
-		}
-	}
+            var app = builder.Build();
+
+            // Configure the HTTP request pipeline.
+            if (!app.Environment.IsDevelopment())
+            {
+                app.UseExceptionHandler("/Home/Error");
+            }
+            app.UseStaticFiles();
+
+            app.UseRouting();
+
+            app.UseAuthorization();
+
+            app.MapControllerRoute(
+                name: "default",
+                pattern: "{controller=Home}/{action=Index}/{id?}");
+
+            app.Run();
+        }
+    }
 }

@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\calculodeequipamentos",
+    "\\src\\calculodeequipamentos\\calculodeequipamentos",
+    "\\src\\calculodeequipamentos\\calculodeequipamentos\\Views",
+    "\\src\\calculodeequipamentos\\calculodeequipamentos\\Views\\Home"
   ],
-  "SelectedNode": "\\C:\\milos\\programaçao\\mapeamentoconsumo",
+  "SelectedNode": "\\src\\calculodeequipamentos\\calculodeequipamentos\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
