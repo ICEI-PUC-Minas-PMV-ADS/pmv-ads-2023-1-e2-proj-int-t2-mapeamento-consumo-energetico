@@ -93,6 +93,7 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico/blob/main/docs/img/Diagrama%20de%20caso%20de%20uso.png" width="1000" height="710"/>
+<sup>Figura 4 - Diagrama de casos de uso</sup>
 
 
 
