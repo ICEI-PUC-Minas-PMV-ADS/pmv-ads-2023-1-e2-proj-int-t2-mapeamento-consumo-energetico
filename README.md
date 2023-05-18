@@ -6,7 +6,7 @@
 
 `2º SEMESTRE`
 
-O intuito do projeto é desenvolver um uma aplicação que calcule o consumo de energia em KWH e estipule a quantidade de placas solares para atender as necessidades de custo energético.
+O intuito do projeto é desenvolver uma aplicação que calcule o consumo de energia em KWH e estipule a quantidade de placas solares para atender as necessidades de custo energético.
 
 ## Integrantes
 
