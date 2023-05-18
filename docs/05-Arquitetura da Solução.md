@@ -4,11 +4,13 @@
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
 <div align="center"> <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico/blob/main/docs/img/Diagrama%20de%20classe.png"> </div>
+<div align="center"><sup>Figura 19 - Diagrama de classes </sup></div>
 
 ## Modelo ER (Projeto Conceitual)
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 <div align="center"> <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t4-pmv-ads-2023-1-e2-proj-int-t4-g2/blob/main/docs/img/entidadesErelacionamentos.png"></div>
+<div align="center"><sup>Figura 20 - Diagrama de entidades e relacionamentos </sup></div>
 
 ## Projeto da Base de Dados
 
