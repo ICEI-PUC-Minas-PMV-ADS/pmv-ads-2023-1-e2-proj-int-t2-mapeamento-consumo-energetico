@@ -17,7 +17,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow abordado por Vietro (2015), mostrado na Figura a seguir. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como Hotfix, Release, Develop e Feature. 
 
 <div align="center"> <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t4-pmv-ads-2023-1-e2-proj-int-t4-g2/blob/538b659089541d54ce6bd2e91aa1fec5d5f7de57/docs/img/imagem_2023-04-08_182051071.png" width="600" height="400"/> </div>
-<div align="center"> <sup>Figura 5 - Fluxo de controle do código fonte no repositório git</sup> </div>
+<div align="center"><sup>Figura 8 - Fluxo de controle do código fonte no repositório git</sup></div>
 
 ## Controle de Versão
 
@@ -72,7 +72,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 * Tela do GitProjects utilizada pelo grupo
 ![GitHubProjects](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t4-pmv-ads-2023-1-e2-proj-int-t4-g2/blob/4519f828f9c1eb500368a48932e5ee9d240e1a56/docs/img/imagem_2023-04-08_180640067.png) <br>
-<div align="center"><sup>Figura 6 - Tela do GitProjects utilizada pelo grupo</sup></div>
+<div align="center"><sup>Figura 9 - Tela do GitProjects utilizada pelo grupo</sup></div>
 <br/>
 
 A tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
@@ -83,7 +83,7 @@ A tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem
 * Backlog;
 * Locked.
 <div align="center"> <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t4-pmv-ads-2023-1-e2-proj-int-t4-g2/blob/e4308d0acbb57c81c26d0f3795ef3c83c28beddd/docs/img/imagem_2023-04-08_181111727.png" width="320" height="230"/> </div>
-<div align="center"><sup>Figura 7 - Imagem contendo as cores representadas por cada categoria</sup></div>
+<div align="center"><sup>Figura 10 - Imagem contendo as cores representadas por cada categoria</sup></div>
 
 ### Ferramentas
 As ferramentas empregadas no projeto são:
