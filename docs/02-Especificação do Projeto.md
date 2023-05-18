@@ -10,7 +10,9 @@ Com os detalhes levantados nesse processo foram consolidados na forma de persona
 | Aplicativos:                                                    | Instagram, Linkedin, G1, Amazon.                                                        |
 | Motivações:                                                     | Avaliar o  consumo energético total da clínica; Entender quais equipamentos consomem mais energia; Efetuar trocas eficientes desses equipamentos.                    |       
 | Frustrações:                                                    | Valor exorbitante das contas de energia; Não entender os valores finais na conta de energia; Não conseguir economizar;                                             |
-| Hobbies, História:                                              | Gosta de pesquisar sobre novas; tecnologias e demandas do mercado;Política e economia.                                                        |
+| Hobbies, História:                                              | Gosta de pesquisar sobre novas; tecnologias e demandas do mercado;Política e economia.                                          |
+<div align="center"><sup>Figura 4 - Persona 1</sup></div>
+<br/>
 
 | <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico/blob/main/docs/img/persona2.jpg" width="350" height="175"/> | Carlos Gomes, 36 anos|
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------|
@@ -20,6 +22,8 @@ Com os detalhes levantados nesse processo foram consolidados na forma de persona
 | Frustrações:                                                    | Dificuldade em catalogar seus gastos mensais com seu maquinário de trabalho e aparelhos residenciais; Uso de equipamentos antigos com alto custo energético; Desperdício de energia durante o dia.| 
 | Hobbies, História:                                              | Gosta de buscar soluções inovadoras para a construção civil; Música; Pescaria. |
 
+<div align="center"><sup>Figura 5 - Persona 2</sup></div>
+<br/>
 
 | <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t4-pmv-ads-2023-1-e2-proj-int-t4-g2/blob/430d9e0852c7842e337d09434988e9eaabfc36b0/docs/img/imagem_2023-04-08_173214534.png" width="250" height="195"/> | Andrea Soares, 44 anos|
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------|
@@ -28,7 +32,8 @@ Com os detalhes levantados nesse processo foram consolidados na forma de persona
 | Motivações:                                                     | Expandir seus negócios; Incentivar sua família a fazer o consumo consciente; Reduzir os gastos com energia elétrica.|       
 | Frustrações:                                                    | Não conseguir ter uma estimativa prévia de seu consumo mensal de energia; Desequilíbrio financeiro pelo excesso de gastos;| 
 | Hobbies, História:                                              | Artesanato; Caminhada ao ar livre; Desenhista nas horas vagas.|
-
+<div align="center"><sup>Figura 6 - Persona 3</sup></div>
+<br/>
 
 ## Histórias de Usuários
 
@@ -93,7 +98,7 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico/blob/main/docs/img/Diagrama%20de%20caso%20de%20uso.png" width="1000" height="710"/>
-<sup>Figura 4 - Diagrama de casos de uso</sup>
+<div align="center"><sup>Figura 7 - Diagrama de casos de uso</sup></div>
 
 
 
