@@ -22,6 +22,11 @@ namespace calculodeequipamentos.Controllers
         {
             return View();
         }
+
+        public IActionResult Calculadora()
+        {
+            return View();
+        }
         public IActionResult Editar()
         {
             return View();

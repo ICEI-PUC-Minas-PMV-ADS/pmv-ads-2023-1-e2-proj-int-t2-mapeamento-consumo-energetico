@@ -1,48 +1,20 @@
-html {
-  font-size: 14px;
-}
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  margin-bottom: 60px;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-}
-
-h1 {
-    text-align: center;
-    margin-top: 50px;
-}
-
-form {
+.form-calc {
     width: 400px;
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.7);
 }
 
-label {
+.label-calc {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
 }
 
-input {
+.form-control {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -51,7 +23,7 @@ input {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-button {
+.button-calcular {
     background-color: #1abc9c;
     color: #fff;
     border: none;
@@ -60,7 +32,7 @@ button {
     cursor: pointer;
 }
 
-    button:hover {
+    .button-calcular:hover {
         background-color: #16a085;
     }
 
@@ -69,3 +41,191 @@ button {
     margin-top: 20px;
     font-size: 1.2em;
 }
+
+
+header {
+    background-image: url("imagens/fundo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bolder;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 550px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.carousel {
+    margin-left: 160px;
+    margin-top: 40px;
+    width: 500px;
+    height: 430px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(176, 223, 255, 1);
+}
+
+
+
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: 10%;
+    transform: translateY(-5%);
+}
+
+
+.container-texto2 {
+    margin-top: 40px;
+    width: 500px;
+    height: 430px;
+    font-size: 20px;
+    margin-left: 160px;
+    background-color: rgba(176, 223, 255, 1);
+    color: #383838;
+}
+
+.container-texto {
+    margin-top: 40px;
+    width: 500px;
+    height: 430px;
+    font-size: 17px;
+    margin-left: 40px;
+    background-color: rgba(176, 223, 255, 1);
+    color: #383838;
+}
+
+p
+
+.container-texto > div {
+    flex-grow: 1;
+}
+
+
+
+
+
+.logo {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+/* .carousel {
+    margin-top: 25px;
+} */
+
+
+/* Ricardo */
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+    .container select {
+        width: 290px;
+        height: 200px;
+        border-radius: 5px;
+        margin-top: 40px;
+        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.7);
+        -webkit-appearance: button;
+        appearance: button;
+        outline: none;
+    }
+
+.item select {
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+}
+
+    .item select option {
+        padding: 5px;
+    }
+
+.container select option:checked {
+    background-color: #d3d2d2f6;
+    color: #0000006c;
+}
+
+main {
+    background-color: #349eb1;
+    width: 100%;
+    height: 500px;
+}
+
+.equipamentos-selecionados {
+    background-color: white;
+    width: 80%;
+    height: 110px;
+    display: flex;
+    margin-top: 130px;
+    margin-bottom: 25px;
+    position: relative;
+    margin-left: 90px;
+}
+
+.container-button {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.confirmar {
+    position: absolute;
+    color: rgba(8, 0, 78, 0.911);
+    left: 1590px;
+    z-index: 1;
+    width: 140px;
+    height: 110px;
+    text-align: center;
+    background-color: #96cbe0;
+    font-weight: bold;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+}
+
+
+.item {
+    width: 400px;
+    height: 200px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Ricardo */
+
+
+section {
+    width: 100%;
+    height: 600px;
+    background-color: orange;
+}
+
+
+footer {
+    width: 100%;
+    height: 350px;
+    background-color: yellow;
+}
+
+

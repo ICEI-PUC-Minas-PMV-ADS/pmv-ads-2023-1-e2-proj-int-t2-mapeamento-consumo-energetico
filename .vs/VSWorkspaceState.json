@@ -1,7 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\calculodeequipamentos",
+    "\\src\\calculodeequipamentos\\calculodeequipamentos",
+    "\\src\\calculodeequipamentos\\calculodeequipamentos\\Controllers",
+    "\\src\\calculodeequipamentos\\calculodeequipamentos\\Views",
+    "\\src\\calculodeequipamentos\\calculodeequipamentos\\Views\\Home",
+    "\\src\\calculodeequipamentos\\calculodeequipamentos\\Views\\Shared"
   ],
-  "SelectedNode": "\\C:\\Users\\jones\\OneDrive\\Área de Trabalho\\Mapeamento de Consumo",
+  "SelectedNode": "\\src\\calculodeequipamentos\\calculodeequipamentos\\calculodeequipamentos.sln",
   "PreviewInSolutionExplorer": false
 }
