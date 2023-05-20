@@ -9,41 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = calculodeequipamentos
 build_property.RootNamespace = calculodeequipamentos
-build_property.ProjectDir = C:\milos\programaçao\consumooenergeticoo\src\calculodeequipamentos\calculodeequipamentos\
+build_property.ProjectDir = D:\Programação\Repositories\src\calculodeequipamentos\calculodeequipamentos\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\milos\programaçao\consumooenergeticoo\src\calculodeequipamentos\calculodeequipamentos
+build_property.MSBuildProjectDirectory = D:\Programação\Repositories\src\calculodeequipamentos\calculodeequipamentos
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/milos/programaçao/consumooenergeticoo/src/calculodeequipamentos/calculodeequipamentos/Views/Equipamento/Calculadora.cshtml]
+[D:/Programação/Repositories/src/calculodeequipamentos/calculodeequipamentos/Views/Equipamento/Calculadora.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBhbWVudG9cQ2FsY3VsYWRvcmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/milos/programaçao/consumooenergeticoo/src/calculodeequipamentos/calculodeequipamentos/Views/Home/Index.cshtml]
+[D:/Programação/Repositories/src/calculodeequipamentos/calculodeequipamentos/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/milos/programaçao/consumooenergeticoo/src/calculodeequipamentos/calculodeequipamentos/Views/Home/Privacy.cshtml]
+[D:/Programação/Repositories/src/calculodeequipamentos/calculodeequipamentos/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/milos/programaçao/consumooenergeticoo/src/calculodeequipamentos/calculodeequipamentos/Views/Shared/Error.cshtml]
+[D:/Programação/Repositories/src/calculodeequipamentos/calculodeequipamentos/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/milos/programaçao/consumooenergeticoo/src/calculodeequipamentos/calculodeequipamentos/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Programação/Repositories/src/calculodeequipamentos/calculodeequipamentos/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/milos/programaçao/consumooenergeticoo/src/calculodeequipamentos/calculodeequipamentos/Views/_ViewImports.cshtml]
+[D:/Programação/Repositories/src/calculodeequipamentos/calculodeequipamentos/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/milos/programaçao/consumooenergeticoo/src/calculodeequipamentos/calculodeequipamentos/Views/_ViewStart.cshtml]
+[D:/Programação/Repositories/src/calculodeequipamentos/calculodeequipamentos/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/milos/programaçao/consumooenergeticoo/src/calculodeequipamentos/calculodeequipamentos/Views/Shared/_Layout.cshtml]
+[D:/Programação/Repositories/src/calculodeequipamentos/calculodeequipamentos/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-s6oayfrjlp
