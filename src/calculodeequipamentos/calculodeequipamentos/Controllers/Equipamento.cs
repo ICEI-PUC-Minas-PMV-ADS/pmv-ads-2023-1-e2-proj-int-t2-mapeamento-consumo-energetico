@@ -27,14 +27,7 @@ namespace calculodeequipamentos.Controllers
         {
             return View();
         }
-        public IActionResult Editar()
-        {
-            return View();
-        }
-        public IActionResult ApagarConfirmacao()
-        {
-            return View();
-        }
+  
         [HttpPost]
         public IActionResult RegistrarResultado(EquipamentoEletronico equipamento)
         {

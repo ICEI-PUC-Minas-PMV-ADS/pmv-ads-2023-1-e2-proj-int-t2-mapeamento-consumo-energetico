@@ -203,3 +203,14 @@ C:\milos\programaçao\consumooenergeticoo\src\calculodeequipamentos\calculodeequ
 C:\milos\programaçao\consumooenergeticoo\src\calculodeequipamentos\calculodeequipamentos\obj\Debug\net6.0\calculodeequipamentos.pdb
 C:\milos\programaçao\consumooenergeticoo\src\calculodeequipamentos\calculodeequipamentos\obj\Debug\net6.0\calculodeequipamentos.genruntimeconfig.cache
 C:\milos\programaçao\consumooenergeticoo\src\calculodeequipamentos\calculodeequipamentos\obj\Debug\net6.0\ref\calculodeequipamentos.dll
+C:\milos\programaçao\projetopuc\src\calculodeequipamentos\calculodeequipamentos\obj\Debug\net6.0\calculodeequipamentos.csproj.AssemblyReference.cache
+C:\milos\programaçao\projetopuc\src\calculodeequipamentos\calculodeequipamentos\obj\Debug\net6.0\calculodeequipamentos.GeneratedMSBuildEditorConfig.editorconfig
+C:\milos\programaçao\projetopuc\src\calculodeequipamentos\calculodeequipamentos\obj\Debug\net6.0\calculodeequipamentos.AssemblyInfoInputs.cache
+C:\milos\programaçao\projetopuc\src\calculodeequipamentos\calculodeequipamentos\obj\Debug\net6.0\calculodeequipamentos.AssemblyInfo.cs
+C:\milos\programaçao\projetopuc\src\calculodeequipamentos\calculodeequipamentos\obj\Debug\net6.0\calculodeequipamentos.csproj.CoreCompileInputs.cache
+C:\milos\programaçao\projetopuc\src\calculodeequipamentos\calculodeequipamentos\obj\Debug\net6.0\calculodeequipamentos.MvcApplicationPartsAssemblyInfo.cache
+C:\milos\programaçao\projetopuc\src\calculodeequipamentos\calculodeequipamentos\obj\Debug\net6.0\calculodeequipamentos.RazorAssemblyInfo.cache
+C:\milos\programaçao\projetopuc\src\calculodeequipamentos\calculodeequipamentos\obj\Debug\net6.0\calculodeequipamentos.RazorAssemblyInfo.cs
+C:\milos\programaçao\projetopuc\src\calculodeequipamentos\calculodeequipamentos\obj\Debug\net6.0\calculodeequipamentos.dll
+C:\milos\programaçao\projetopuc\src\calculodeequipamentos\calculodeequipamentos\obj\Debug\net6.0\refint\calculodeequipamentos.dll
+C:\milos\programaçao\projetopuc\src\calculodeequipamentos\calculodeequipamentos\obj\Debug\net6.0\calculodeequipamentos.pdb

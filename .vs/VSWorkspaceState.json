@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\calculodeequipamentos",
+    "\\src\\calculodeequipamentos\\calculodeequipamentos"
   ],
-  "SelectedNode": "\\LOGIN_E_CADASTRO.sln",
+  "SelectedNode": "\\src\\calculodeequipamentos\\calculodeequipamentos\\calculodeequipamentos.sln",
   "PreviewInSolutionExplorer": false
 }
