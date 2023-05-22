@@ -1,5 +1,5 @@
-﻿@using WebApplication2.Models;
-﻿@model EquipamentoModel
+﻿@using WebApplication2.Models;﻿
+@model EquipamentoModel
 
 @{
     ViewData["Title"] = "Adicionar equipamento";
@@ -10,7 +10,7 @@
     <br />
 </div>
 
-<form asp-controller="ControllerEquipamentos" asp-action="Criar" method="post">
+<form asp-controller="ControllerEquipamentos" asp-action="Adicionar" method="post">
     <div class="input-group mb-3">
         <span class="input-group-text" id="inputGroup-sizing-default">Nome do equipamento</span>
         <input type="text" asp-for="Nome" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
@@ -28,5 +28,5 @@
         <input type="number" asp-for="Quantidade" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
     </div>
     <button type="submit" class="btn btn-primary">Adicionar</button>
-    <a class="btn btn-secondary" asp-controller="Equipamento" asp-action="Index">Voltar</a>
+    <a class="btn btn-secondary" asp-controller="ControllerEquipamentos" asp-action="Index">Voltar</a>
     </form>

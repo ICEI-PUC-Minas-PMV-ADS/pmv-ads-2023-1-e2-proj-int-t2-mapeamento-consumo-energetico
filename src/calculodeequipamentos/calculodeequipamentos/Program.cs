@@ -2,6 +2,7 @@
 using calculodeequipamentos.Context;
 using calculodeequipamentos.Repositorio;
 using Microsoft.EntityFrameworkCore;
+using WebApplication2.Context;
 using WebApplication2.Repositorio;
 
 
@@ -24,6 +25,11 @@ namespace calculodeequipamentos
                 options.UseSqlServer
                 ("Data Source=DESKTOP-GFK2EGS\\;Initial Catalog=EquipamentosCadastrados; Integrated Security=True; Encrypt=False"));
             builder.Services.AddScoped<IEquipamentoRepositorio, EquipamentoRepositorio>();
+
+
+            builder.Services.AddDbContext<AppDbContext2>(options =>
+               options.UseSqlServer
+               ("Data Source=DESKTOP-GFK2EGS\\;Initial Catalog=EquipCadastrados; Integrated Security=True; Encrypt=False"));
             builder.Services.AddScoped<IEquipamentoRepositorio2, EquipamentoRepositorio2>();
 
 

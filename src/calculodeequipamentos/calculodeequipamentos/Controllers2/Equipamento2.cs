@@ -1,4 +1,5 @@
 ﻿
+using calculodeequipamentos.Repositorio;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication2.Models;
 using WebApplication2.Repositorio;
@@ -8,34 +9,46 @@ namespace WebApplication2.Controllers
     public class Equipamento2 : Controller
     {
 
-        private readonly IEquipamentoRepositorio2 _equipamentoRepositorio2;
-        public Equipamento2(IEquipamentoRepositorio2 equipamentoRepositorio2)
+        private readonly IEquipamentoRepositorio2 _equipamentoRepositorio;
+        public Equipamento2(IEquipamentoRepositorio2 equipamentoRepositorio)
         {
-            _equipamentoRepositorio2 = equipamentoRepositorio2;
+            _equipamentoRepositorio = equipamentoRepositorio;
         }
         public IActionResult Index()
         {
-            List<EquipamentoModel> equip = _equipamentoRepositorio2.BuscarTodos2();
+            List<EquipamentoModel> equip = _equipamentoRepositorio.BuscarTodos2();
 
             return View(equip);
         }
-        public IActionResult Adicionar()
-        {
-            return View();
-        }
+
         public IActionResult Editar(int id)
         {
-            EquipamentoRepositorio2 equip = _equipamentoRepositorio2.ListarPorId(id);
+            EquipamentoModel equip = _equipamentoRepositorio.ListarPorId(id);
             return View(equip);
         }
-        public IActionResult Apagar()
+        public IActionResult Apagar(int id)
         {
-            return View();
+            EquipamentoModel equip = _equipamentoRepositorio.ListarPorId(id);
+            return View(equip);
         }
+
+        public IActionResult ApagarReal(int id)
+        {
+            _equipamentoRepositorio.ApagarReal(id);
+            return RedirectToAction("Index");
+        }
+
         [HttpPost]
         public IActionResult Criar(EquipamentoModel equip)
         {
-            _equipamentoRepositorio2.Adicionar2(equip);
+            _equipamentoRepositorio.Adicionar2(equip);
+            return RedirectToAction("Index");
+
+        }
+        [HttpPost]
+        public IActionResult Alterar(EquipamentoModel equip)
+        {
+            _equipamentoRepositorio.Atualizar2(equip);
             return RedirectToAction("Index");
         }
     }

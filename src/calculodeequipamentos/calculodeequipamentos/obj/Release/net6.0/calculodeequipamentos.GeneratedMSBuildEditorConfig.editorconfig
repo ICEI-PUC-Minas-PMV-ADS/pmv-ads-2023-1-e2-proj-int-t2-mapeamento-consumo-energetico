@@ -16,6 +16,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\milos\programaçao\projetopuc\src\calculodeequipamentos\calculodeequipamentos
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/milos/programaçao/projetopuc/src/calculodeequipamentos/calculodeequipamentos/Views/ControllerEquipamentos/Adicionar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGxlckVxdWlwYW1lbnRvc1xBZGljaW9uYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/milos/programaçao/projetopuc/src/calculodeequipamentos/calculodeequipamentos/Views/ControllerEquipamentos/Apagar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGxlckVxdWlwYW1lbnRvc1xBcGFnYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/milos/programaçao/projetopuc/src/calculodeequipamentos/calculodeequipamentos/Views/ControllerEquipamentos/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGxlckVxdWlwYW1lbnRvc1xFZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/milos/programaçao/projetopuc/src/calculodeequipamentos/calculodeequipamentos/Views/ControllerEquipamentos/Tabela.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGxlckVxdWlwYW1lbnRvc1xUYWJlbGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/milos/programaçao/projetopuc/src/calculodeequipamentos/calculodeequipamentos/Views/Equipamento/Calculadora.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBhbWVudG9cQ2FsY3VsYWRvcmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
