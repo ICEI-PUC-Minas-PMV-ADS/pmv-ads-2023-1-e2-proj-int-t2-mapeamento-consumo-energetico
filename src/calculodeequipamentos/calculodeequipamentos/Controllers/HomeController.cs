@@ -8,8 +8,14 @@ namespace calculodeequipamentos.Controllers
 	public class HomeController : Controller
 	{
 
+        private readonly ILogger<HomeController> _logger;
 
-		public IActionResult Index()
+        public HomeController(ILogger<HomeController> logger)
+        {
+            _logger = logger;
+        }
+
+        public IActionResult Index()
 		{
 			return View();
 		}

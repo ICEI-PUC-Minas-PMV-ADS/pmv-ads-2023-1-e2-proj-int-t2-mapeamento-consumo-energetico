@@ -20,7 +20,7 @@ namespace calculodeequipamentos
 
             // Add services to the container.
             string mySqlConnection =
-                    builder.Configuration.GetConnectionString("DefaultConnection");
+            builder.Configuration.GetConnectionString("DefaultConnection");
 
             var connectionString = builder.Configuration.GetConnectionString("ApplicationDbContextConnection") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContextConnection' not found.");
 
@@ -52,10 +52,13 @@ namespace calculodeequipamentos
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
+                app.UseHsts();
             }
+            app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
+            app.UseAuthentication();
 
             app.UseAuthorization();
 
@@ -63,6 +66,7 @@ namespace calculodeequipamentos
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
+            app.MapRazorPages();
             app.Run();
         }
     }

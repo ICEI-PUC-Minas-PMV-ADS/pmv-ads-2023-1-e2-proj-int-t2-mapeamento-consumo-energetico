@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views3\**" />
+    <Content Remove="Views3\**" />
+    <EmbeddedResource Remove="Views3\**" />
+    <None Remove="Views3\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="Properties\serviceDependencies.json" />
     <Content Include="Properties\serviceDependencies.local.json" />
   </ItemGroup>

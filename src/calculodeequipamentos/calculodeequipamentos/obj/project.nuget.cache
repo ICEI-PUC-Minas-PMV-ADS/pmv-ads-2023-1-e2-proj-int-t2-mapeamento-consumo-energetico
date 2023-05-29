@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7jAlZsz6mFzCW6VU7s3MRFp4ItXlNuDBQAIQJjcOG+Ma4rij/HPF3v28qHY5P7bjSFyv83gkK0JbgbMv+1sKkg==",
+  "dgSpecHash": "LF1dzSOxMcnEZCJ5vkRsmzBpNgd2Abuey07ImHdZrHH8GiOq8PTe5pWnfOzJsJmbBBUuCrhZTRa807gTnt1bYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\luisa\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico\\src\\calculodeequipamentos\\calculodeequipamentos\\calculodeequipamentos.csproj",
+  "projectFilePath": "D:\\Programação\\Repositorio PROJETO2\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico\\src\\calculodeequipamentos\\calculodeequipamentos\\calculodeequipamentos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luisa\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\luisa\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
