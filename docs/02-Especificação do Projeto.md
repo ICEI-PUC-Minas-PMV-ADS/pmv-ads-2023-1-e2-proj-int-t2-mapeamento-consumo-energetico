@@ -71,7 +71,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-009    | A aplicação deve gerar um orçamento dos valores das placas fotovoltaicas. | BAIXA |
 |RF-010    | A aplicação deve gerar um informativo sugerindo que o usuário realize a análise de valores reais e estimados pela aplicação, com o intuito de alertar ao cliente sobre possíveis problemas na rede elétrica ou em seus equipamentos eletroeletrônicos. | BAIXA |
 |RF-011    | A aplicação deve calcular os valores a partir dos dados de uso dos equipamentos informados pelo usuário empresarial.| ALTA  | 
-
+|RF-012    | A aplicação deve permitir que o usuário crie uma conta e consiga realizar seu login. | ALTA |
 ### Requisitos não Funcionais
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
 
