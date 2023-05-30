@@ -8,7 +8,7 @@
  **Os testes funcionais a serem realizados no aplicativo são descritos a seguir.:**
  <br>
  
- |**Caso de Teste** 	| **CT-12 – Cadastrar perfil** 	|
+ |**Caso de Teste** 	| **CT-1 – Cadastrar Equipamento** 	|
 |:---:	|:---:	|
 |Requisito Associado 	|RF-001 - A aplicação deve permitir que o usuário empresarial inclua dados de consumo, como tempo de uso e gasto em WH dos equipamentos. |
 |Objetivo do Teste 	| Verificar se o usuário consegue incluir dados de consumo de equipamento para cadstrar um novo equipamento.|
