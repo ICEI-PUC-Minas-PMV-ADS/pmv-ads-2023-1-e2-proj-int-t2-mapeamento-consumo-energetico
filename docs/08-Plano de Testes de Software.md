@@ -8,6 +8,15 @@
  **Os testes funcionais a serem realizados no aplicativo são descritos a seguir.:**
  <br>
  
+ |**Caso de Teste** 	| **CT-12 – Cadastrar perfil** 	|
+|:---:	|:---:	|
+|Requisito Associado 	|RF-001 - A aplicação deve permitir que o usuário empresarial inclua dados de consumo, como tempo de uso e gasto em WH dos equipamentos. |
+|Objetivo do Teste 	| Verificar se o usuário consegue incluir dados de consumo de equipamento para cadstrar um novo equipamento.|
+|Passos 	| 1) Acessar o navegador; <br> 2) Informar o endereço do site; <br> 3) Visualizar a página e clicar em "Cadastrar novo aparelho"; <br> 4) Preencher os campos obrigatórios (Nome do equipamento, potência e uso em horas); <br> 5) Clicar em "Registrar Equipamento". |
+|Critério de Êxito | - O equipamento deve ser cadastrado com os dados salvos. <br> - Apresentar as alterações que podem ser feitas no dados gravados do perfil cadastrado. |
+|  	|  	|
+<br>
+ 
 |**Caso de Teste** 	| **CT-12 – Cadastrar perfil** 	|
 |:---:	|:---:	|
 |Requisito Associado 	| RF-012 - A aplicação deve apresentar na página principal a funcionalidade de cadastro de usuários, para que consigam criar e gerenciar seu perfil. |
