@@ -17,7 +17,7 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 |RF-009    | A aplicação deve gerar um orçamento dos valores das placas fotovoltaicas. | Em construção |
 |RF-010    | A aplicação deve gerar um informativo sugerindo que o usuário realize a análise de valores reais e estimados pela aplicação, com o intuito de alertar ao cliente sobre possíveis problemas na rede elétrica ou em seus equipamentos eletroeletrônicos. | Em construção |
 |RF-011    | A aplicação deve calcular os valores a partir dos dados de uso dos equipamentos informados pelo usuário empresarial.| Em construção  | 
-|RF-012    | A aplicação deve permitir que o usuário crie uma conta e consiga realizar seu login.|***Areas/Identity/Pages/ <br> /Login.cshtml <br> /Login.cshtml.cs <br> /Register.cshtml <br> /Register.cshtml.cs <br> HomeController.cs*** | 
+|RF-012    | A aplicação deve permitir que o usuário crie uma conta e consiga realizar seu login.|***Areas/Identity/Pages/ <br> /Login.cshtml <br> /Login.cshtml.cs <br> /Register.cshtml <br> /Register.cshtml.cs <br> /HomeController.cs*** | 
 
 
 
