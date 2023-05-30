@@ -16,6 +16,15 @@
 |Critério de Êxito | - O equipamento deve ser cadastrado com os dados salvos. |
 |  	|  	|
 <br>
+
+ |**Caso de Teste** 	| **CT-3 – Ver listagem de equipamentos** 	|
+|:---:	|:---:	|
+|Requisito Associado 	|RF-001 - A aplicação deve permitir ao usuário incluir o tempo de uso médio de cada equipamento ou eletrodoméstico em Minutos. |
+|Objetivo do Teste 	| Verificar se o sistema permite que o usuário veja a lista de equipamentos que o mesmo criou.|
+|Passos 	| 1) Acessar o navegador; <br> 2) Informar o endereço do site; <br> 3) Visualizar a página e clicar em "Adicionar Equipamento". <br> |
+|Critério de Êxito | - A listagem deve ser dinamica e o usuário pode adicionar, excluir, editar e ver essa listagem. |
+|  	|  	|
+<br>
  
 |**Caso de Teste** 	| **CT-12 – Cadastrar perfil** 	|
 |:---:	|:---:	|
