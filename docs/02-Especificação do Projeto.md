@@ -79,7 +79,7 @@ A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá 
 |-------|-------------------------|----|
 |RNF-001| A aplicação interativa deve ser publicada em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku).| ALTA | 
 |RNF-002| A aplicação interativa deverá ser responsiva permitindo a visualização em um celular de forma adequada. |  ALTA | 
-|RNF-003| A aplicação interativa será programada em HTML, Css, Javascript e SQL. |  MÉDIA | 
+|RNF-003| A aplicação interativa será programada em HTML, C#, CSS, JavaScript e SQL. |  MÉDIA | 
 |RNF-004| A aplicação interativa deve apresentar design moderno e fácil usabilidade. |  ALTA | 
 |RNF-005| A aplicação interativa deve ser compatível com os navegadores Chrome, Opera, Edge, Mozilla Firefox, Brave e Safari. |  ALTA | 
 
