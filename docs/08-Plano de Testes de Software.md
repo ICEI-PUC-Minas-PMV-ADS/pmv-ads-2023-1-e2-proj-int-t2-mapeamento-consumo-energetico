@@ -3,7 +3,7 @@
 **Os requisitos para realização dos testes de software são:**
 - **Site publicado na Internet;**
 - **Navegador da Internet - Chrome, Firefox ou Edge;**
-- **Conectividade de Internet para acesso às plataformas (APIS).**
+- **Conectividade de Internet para acesso às plataformas (APISs).**
 
  **Os planos de teste do software são:**
  <br>
