@@ -5,23 +5,23 @@
 - **Navegador da Internet - Chrome, Firefox ou Edge;**
 - **Conectividade de Internet para acesso às plataformas (APISs).**
 
- **Os planos de teste do software são:**
+ **Os testes funcionais a serem realizados no aplicativo são descritos a seguir.:**
  <br>
  
 |**Caso de Teste** 	| **CT-12 – Cadastrar perfil** 	|
 |:---:	|:---:	|
-|Requisito Associado 	| RF-012 - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-|Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-|Passos 	| - Acessar o navegador; <br> - Informar o endereço do site; <br> - Clicar em "Criar conta"; <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha); <br> - Clicar em "Registrar". |
-|Critério de Êxito | - O cadastro foi realizado com sucesso. |
+|Requisito Associado 	| RF-012 - A aplicação deve apresentar na página principal a funcionalidade de cadastro de usuários, para que consigam criar e gerenciar seu perfil. |
+|Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. E alterar os dados do perfil que foram salvos.|
+|Passos 	| 1) Acessar o navegador; <br> 2) Informar o endereço do site; <br> 3) Visualizar a página e clicar em "Registrar"; <br> 4) Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, senha, confirmação de senha); <br> 5) Clicar em "Registrar". |
+|Critério de Êxito | - O perfil deve ser cadastrado com os dados salvos. <br> - Apresentar as alterações que podem ser feitas no dados gravados do perfil cadastrado. |
 |  	|  	|
 <br>
  
-|**Caso de Teste** 	| **CT-12 – Realizar o login** 	|
+|**Caso de Teste** 	| **CT-13– Realizar o login** 	|
 |:---:	|:---:	|
-|Requisito Associado 	| RF-012 - A aplicação deve apresentar, na página principal, a funcionalidade de login de usuários para que esses consigam logar e gerenciar seu perfil. |
-|Objetivo do Teste 	| Verificar se o usuário consegue logar na aplicação. |
-|Passos 	| - Acessar o navegador; <br> - Informar o endereço do site; <br> - Preencher os campos obrigatórios (usuário e senha); <br> - Clicar em "Entrar". |
-|Critério de Êxito | - O login foi realizado com sucesso. |
+|Requisito Associado 	| RF-012 - A aplicação deve apresentar na página principal a funcionalidade de login de usuário, para que consigam logar e gerenciar seu perfil. |
+|Objetivo do Teste 	| Verificar se o usuário consegue logar na aplicação. E alterar os dados do perfil que foram salvos.|
+|Passos 	| 1) Acessar o navegador; <br> 2) Informar o endereço do site; <br> 3) Visualizar a página e clicar em "Login" <br>4) Preencher os campos obrigatórios (usuário e senha); <br> 4) Clicar em "Entrar". |
+|Critério de Êxito | - O perfil deve conseguir realizar o login com sucesso; <br> - Apresentar as configurações que podem ser alteradas do perfil. |
 |  	|  	|
 <br>
