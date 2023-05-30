@@ -7,6 +7,7 @@ namespace WebApplication2.Context
     {
         public AppDbContext2(DbContextOptions<AppDbContext2> options) : base(options)
         {
+            Database.EnsureCreated();
         }
 
         public DbSet<EquipamentoModel> Equip { get; set; }
