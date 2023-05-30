@@ -18,7 +18,7 @@
 |  	|  	|
 <br>
 
-|**Caso de Teste** 	| **CT-11 –Calculo de uso de Equipamento ** 	|
+|**Caso de Teste** 	| **CT-11 –Calculo de uso de Equipamento** 	|
 |:---:	|:---:	|
 |Requisito Associado 	|RF-011	A aplicação deve calcular os valores a partir dos dados de uso dos equipamentos informados pelo usuário empresarial. |
 |Objetivo do Teste 	| Verificar se o usuário consegue incluir dados de consumo de equipamento para cadstrar um novo equipamento.|
