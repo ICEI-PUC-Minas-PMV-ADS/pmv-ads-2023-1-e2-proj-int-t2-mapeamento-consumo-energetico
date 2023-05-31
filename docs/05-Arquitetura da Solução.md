@@ -44,6 +44,7 @@ Segue as tecnologias que foram utilizadas para a realização (desenvolvimento) 
 > - **[ASP.NET CORE MVC](https://learn.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-7.0): Foi utilizada esta tecnologia, pois implementa o padrão Model-View-Controller e oferece uma base padronizada e organizada para o desenvolvimento desta solução.**
 > - **[Lucidchart](https://www.lucidchart.com/pages/): Ferramenta utilizada para o design dos diagramas.**
 > - **[GitProjects](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico/projects?query=is%3Aopen): Ferramenta utilizada para realizar a gestão das tarefas do projeto.**
+> - **[Marvel App](https://marvelapp.com/): Ferramenta utilizada para criar os wireframes do projeto.**
 
 
 ## Hospedagem
