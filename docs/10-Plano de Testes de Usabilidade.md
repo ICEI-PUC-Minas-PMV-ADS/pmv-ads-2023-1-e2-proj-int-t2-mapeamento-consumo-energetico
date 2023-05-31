@@ -3,12 +3,12 @@
 <img align="center" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico/blob/636084ed143f048c4a408ba452c1d83ccb284195/docs/img/Jadir%20teste%20usabilidade.png">
 <div align="center"><sup>Figura XX - Imagem teste de usabilidade </sup></div>
 
-O teste de usabiliadade é um método muito utilizado para verificar se a experiência do usuário com o produto corresponde á experiência esperada pela equipe que idealizou a solução.
+O teste de usabilidade é um método muito utilizado para verificar se a experiência do usuário com o produto corresponde à experiência esperada pela equipe que idealizou a solução.
 <br>
 
 ### **Metodologia do teste de usabilidade**
 	
-As observações e respostas do teste de usabilidade foram passadas aos integrantes do grupo. Durante esse processo, os integrantes do grupo foram observando as dificuldades que supostamente iria interferir na experiência do usuário e foram encontrando as soluções necessárias.
+As observações e respostas do teste de usabilidade foram passadas aos integrantes do grupo. Durante esse processo, os integrantes do grupo foram observando as dificuldades que supostamente iriam interferir na experiência do usuário e foram encontrando as soluções necessárias.
 
 ### **Problemas de usabiliadade**
 	
@@ -20,7 +20,7 @@ As observações e respostas do teste de usabilidade foram passadas aos integran
 - O slideshow (carrossel) foi substituído por cards.
 - As aplicações foram alteradas até se adequarem em uma solução e um projeto.
 
-### **Requisitos para interface do usuário**
+### **Requisitos para a interface do usuário**
 **Estes requisitos não funcionais são focados na interação da aplicação com o usuário:**
 
 | **Requisito Associado**| **RNF-001 – A aplicação interativa deve ser publicada em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku).**|
@@ -33,7 +33,7 @@ As observações e respostas do teste de usabilidade foram passadas aos integran
 | Como pode ser testado  | Acessar a aplicação em vários dispositivos com telas de tamanhos diferentes para verificar se o enquadramento da tela se adapta a essas mudanças.|
 <br>
 
-| **Requisito Associado**| **RNF-004 - A aplicação interativa deve apresentar design moderno e fácil usabilidade** 				|
+| **Requisito Associado**| **RNF-004 - A aplicação interativa deve apresentar design moderno e fácil usabilidade.** 				|
 |:---:	|:---:																	|
 | Como pode ser testado  | Ao acessar o site pela URL, o usuário deverá navegar por cada parte presente e testar suas funcionalidades e se está de fácil interatividade.|
 <br>
