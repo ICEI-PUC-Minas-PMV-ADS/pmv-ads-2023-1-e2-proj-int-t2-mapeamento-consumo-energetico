@@ -47,13 +47,21 @@ Segue as tecnologias que foram utilizadas para a realização (desenvolvimento) 
 > - **[Marvel App](https://marvelapp.com/): Ferramenta utilizada para criar os wireframes do projeto.**
 
 
-## Hospedagem
+## Diagrama de componentes
+Diagrama que permite a modelagem física de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos.
+Os componentes que fazem parte da solução são apresentados abaixo.
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+![Diagrama de Componentes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico/blob/89474fe27c6714217ae5a1915f59a46e504e6c32/docs/img/diagrama%20de%20componentes%20-%20hospedagem.png)
+<div align="center"><sup>Figura 22 - Diagrama de componentes </sup></div>
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+A solução implementada conta com os seguintes módulos:
+- **Navegador** - Interface básica do sistema.  
+- **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e o C# que implementam as funcionalidades do sistema.
+- **Local Storage** - Armazenamento mantido no Navegador, onde são implementados bancos de dados. São eles: 
+  - **Cálculos** - Cálculos que se manteram salvos caso o usuário volte a logar no sistema;
+  - **Equipamentos** - Equipamentos que foram armazenados no sistema;
+  - **Usuários** - Local onde se armazena os dados gravados pelos os usuários que se cadastraram no sistema.
+- **Hospedagem** - Local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
+- 
+# Hospedagem
+O site utiliza a plataforma do Azure Web Pages como ambiente de hospedagem do site do projeto e é feita por meio de uma submissão do projeto (push) via git. O site é mantido no ambiente da URL: https://calculodeequipamentos.azurewebsites.net/
