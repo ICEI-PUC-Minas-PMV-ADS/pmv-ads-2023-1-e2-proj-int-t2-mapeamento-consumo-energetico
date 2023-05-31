@@ -58,7 +58,7 @@ A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema.  
 - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e o C# que implementam as funcionalidades do sistema.
 - **Local Storage** - Armazenamento mantido no Navegador, onde são implementados bancos de dados. São eles: 
-  - **Cálculos** - Cálculos que se manteram salvos caso o usuário volte a logar no sistema;
+  - **Cálculos** - Cálculos que se mantiveram salvos caso o usuário volte a logar no sistema;
   - **Equipamentos** - Equipamentos que foram armazenados no sistema;
   - **Usuários** - Local onde se armazena os dados gravados pelos os usuários que se cadastraram no sistema.
 - **Hospedagem** - Local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
