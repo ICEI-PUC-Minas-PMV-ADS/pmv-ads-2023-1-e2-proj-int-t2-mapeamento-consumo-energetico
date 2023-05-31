@@ -16,13 +16,13 @@ Conforme o diagrama de fluxo do projeto, apresentado no item anterior, as telas 
 
 As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 12. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles: 
 
-**Cabeçalho** - local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);
+**Menu** - local usado para acessar as outras telas da aplicação(todas as telas apresentadas o terão);
 
 **Conteúdo** - apresenta o conteúdo da tela em questão;
 
 **Scroll** - permite a continuação da pagina segmentada em um único bloco
 
-<div align="center"><img src= "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico/blob/main/docs/img/wireframe1.jpeg"></div>
+<div align="center"><img src= "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico/blob/d0b34d750191bdc57f50154b98f4f5a39bb1f769/docs/img/wireframe%201.png"></div>
 <div align="center"><sup>Figura 12 - Estrutura padrão do site </sup></div>
 
 ## Tela - Home-Page
