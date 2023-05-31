@@ -62,6 +62,6 @@ A solução implementada conta com os seguintes módulos:
   - **Equipamentos** - Equipamentos que foram armazenados no sistema;
   - **Usuários** - Local onde se armazena os dados gravados pelos os usuários que se cadastraram no sistema.
 - **Hospedagem** - Local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
-- 
+
 # Hospedagem
 O site utiliza a plataforma do Azure Web Pages como ambiente de hospedagem do site do projeto e é feita por meio de uma submissão do projeto (push) via git. O site é mantido no ambiente da URL: https://calculodeequipamentos.azurewebsites.net/
