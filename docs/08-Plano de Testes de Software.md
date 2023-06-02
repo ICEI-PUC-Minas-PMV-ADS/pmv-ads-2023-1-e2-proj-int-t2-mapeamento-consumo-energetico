@@ -44,3 +44,11 @@
 |Critério de Êxito | - O perfil deve conseguir realizar o login com sucesso; <br> - Apresentar as configurações que podem ser alteradas do perfil. |
 |  	|  	|
 <br>
+|**Caso de Teste** 	| **CT-05– Calcular Valores** 	|
+|:---:	|:---:	|
+|Requisito Associado 	| RF-05 - A aplicação deve apresentar na página principal a funcionalidade de login de usuário, para que consigam logar e gerenciar seu perfil. |
+|Objetivo do Teste 	| Verificar se o usuário consegue calcular seus gastos.|
+|Passos 	| 1) Acessar o navegador; <br> 2) Informar o endereço do site; <br> 3) Visualizar a página e clicar em "Login" <br>4) Preencher os campos obrigatórios (usuário e senha); <br> 4) Clicar em "Entrar". |
+|Critério de Êxito | - O perfil deve conseguir realizar o login com sucesso; <br> - Apresentar as configurações que podem ser alteradas do perfil. |
+|  	|  	|
+<br>
