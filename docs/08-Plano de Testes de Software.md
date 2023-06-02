@@ -53,7 +53,7 @@
 |Critério de Êxito | - O perfil deve ser cadastrado com os dados salvos. <br> - Apresentar as alterações que podem ser feitas no dados gravados do perfil cadastrado. |
 |  	|  	|<br>
 
-Aqui está a tabela organizada:
+
 
 | Caso de Teste       | CT-09 – Valores das placas fotovoltaicas                                              |
 |---------------------|-----------------------------------------------------------------------------------|
