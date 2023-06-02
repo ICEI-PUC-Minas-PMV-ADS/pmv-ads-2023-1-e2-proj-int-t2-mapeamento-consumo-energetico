@@ -51,9 +51,12 @@
 |Objetivo do Teste 	| Verificar se o usuário consegue logar na aplicação. E alterar os dados do perfil que foram salvos.|
 |Passos 	| 1) Acessar o navegador; <br> 2) Informar o endereço do site; <br> 3) Visualizar a página e clicar em "calcular"; <br> 4) Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, senha, confirmação de senha); <br> 5) Clicar em "Calcular".  |
 |Critério de Êxito | - O perfil deve ser cadastrado com os dados salvos. <br> - Apresentar as alterações que podem ser feitas no dados gravados do perfil cadastrado. |
-|  	|  	|
-| Caso de Teste                                       | CT-09 – A aplicação deve gerar um orçamento dos valores das placas fotovoltaicas |
-|----------------------------------------------------|-----------------------------------------------------------------------------------|
+|  	|  	|<br>
+
+|**Caso de Teste** 	| **CT-09– Valores das placas fotovoltaicas** 	|
+
+| Caso de Teste                                       | CT-09 – A aplicação deve gerar um orçamento dos valores das placas fotovoltaicas.|
+
 | Requisito Associado                                | RF-09 - A aplicação deve apresentar na página principal um orçamento de valores das placas fotovoltaicas |
 | Objetivo do Teste                                  | Verificar se a aplicação é capaz de gerar corretamente um orçamento com os valores das placas fotovoltaicas |
 | Passos                                             | 1) Acessar o navegador; <br> 2) Informar o endereço do site; <br> 3) Abrir a aplicação de geração de orçamento de placas fotovoltaicas; <br> 4) Preencher os critérios necessários para o cálculo do orçamento, como potência; <br> 5) Clicar no botão "Gerar Orçamento". |
