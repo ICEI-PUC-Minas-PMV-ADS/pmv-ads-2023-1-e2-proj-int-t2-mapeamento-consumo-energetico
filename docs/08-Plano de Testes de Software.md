@@ -53,3 +53,11 @@
 |Critério de Êxito | - O perfil deve ser cadastrado com os dados salvos. <br> - Apresentar as alterações que podem ser feitas no dados gravados do perfil cadastrado. |
 |  	|  	|
 <br>
+|**Caso de Teste** 	| **CT-09– A aplicação deve gerar um orçamentodos valores das plascas fotovoltaicas** 	|
+|:---:	|:---:	|
+|Requisito Associado 	| RF-09 - A aplicação deve apresentar na página principal um orçamento de valores das placas fotovoltaicas. |
+|Objetivo do Teste 	| Verificar se a aplicação é capaz de gerar corretamente um orçamento com os valores das placas fotovoltaicas.|
+|Passos 	| 1) Acessar o navegador; <br> 2) Informar o endereço do site; <br> 3) Abrir a aplicação de geração de orçamento de placas fotovoltaicas.<br>4) Preencher os critérios necessários para o cálculo do orçamento, como potência<br> 5) Clicar no botão "Gerar Orçamento". |6) Verificar se a aplicação exibe um orçamento com os valores das placas fotovoltaicas com base nos critérios informados.| 7) Verificar se o orçamento exibido inclui as informações relevantes, como quantidade de placas necessárias, custo unitário das placas.| 8) Comparar os valores do orçamento gerado pela aplicação com os valores esperados com base nos critérios informados.| 9) Verificar se os valores do orçamento estão corretamente formatados e exibidos de acordo com as convenções estabelecidas pela aplicação.|
+|Critério de Êxito | - A aplicação deve ser capaz de gerar um orçamento corretamente com base nos critérios informados.<br> -Os valores do orçamento devem ser consistentes e precisos de acordo com os critérios informados.|
+|  	|  	|
+<br>
