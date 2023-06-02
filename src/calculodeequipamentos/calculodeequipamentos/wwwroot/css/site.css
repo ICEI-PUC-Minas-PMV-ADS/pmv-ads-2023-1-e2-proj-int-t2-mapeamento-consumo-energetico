@@ -1,4 +1,32 @@
 
+
+
+#botaoinicial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 40px;
+    position: relative;
+    bottom: 50px;
+  
+}
+
+.logo-small {
+    width: 100px;
+    height: auto;
+}
+
+.logo-large {
+    width: 80px;
+    height: auto;
+}
+
+
+body {
+    background-image: url('fundo.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .form-calc {
     width: 400px;
     margin: 0 auto;
