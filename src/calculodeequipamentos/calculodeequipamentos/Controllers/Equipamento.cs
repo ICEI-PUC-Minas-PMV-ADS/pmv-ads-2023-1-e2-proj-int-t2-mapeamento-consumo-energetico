@@ -2,7 +2,7 @@
 using calculodeequipamentos.Models;
 using calculodeequipamentos.Repositorio;
 using Microsoft.AspNetCore.Mvc;
-
+using WebApplication2.Models;
 
 namespace calculodeequipamentos.Controllers
 {
@@ -27,13 +27,15 @@ namespace calculodeequipamentos.Controllers
         {
             return View();
         }
-  
+
         [HttpPost]
-        public IActionResult RegistrarResultado(EquipamentoEletronico equipamento)
+        public IActionResult RegistrarResultado(EquipamentoModel equipamento)
         {
-            _equipamentoRepositorio.Adicionar(equipamento);
-            return RedirectToAction("Index");
+            // Código para salvar o equipamento no banco de dados
+
+            return RedirectToAction("Resultado", new { consumoTotal = equipamento.ConsumoTotal, placasSolares = equipamento.PlacasSolares });
         }
+
     }
 }
 

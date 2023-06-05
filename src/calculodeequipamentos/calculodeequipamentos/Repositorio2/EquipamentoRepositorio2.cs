@@ -42,6 +42,9 @@ namespace WebApplication2.Repositorio
             equipDb.Khw = equip.Khw;
             equipDb.Tempo = equip.Tempo;
             equipDb.Quantidade = equip.Quantidade;
+            equipDb.Consumo = equip.Consumo;
+            equipDb.ConsumoTotal = equip.ConsumoTotal;
+            equipDb. PlacasSolares = equip.PlacasSolares;
 
             _appdbcontext.Equip.Update(equipDb);
             _appdbcontext.SaveChanges();

@@ -1,5 +1,7 @@
-﻿@using WebApplication2.Models;
+﻿
+@using WebApplication2.Models;
 @model List<EquipamentoModel>
+
 @{
     ViewData["Title"] = "Mapeamento de Consumo energético";
 }
@@ -69,10 +71,11 @@
             <tbody>
                 @if (Model != null && Model.Any())
                 {
-                    foreach (var equip in Model)
+                    foreach (EquipamentoModel equip in Model)
                     {
                         <tr>
-                            <th scope="row">@equip.Quantidade</th>
+                            <th scope="row">@equip.Id</th>
+                            <td>@equip.Quantidade</td>
                             <td>@equip.Nome</td>
                             <td>@equip.Khw</td>
                             <td>@equip.Tempo</td>
@@ -88,8 +91,34 @@
                 }
             </tbody>
         </table>
-    </div>
     
+
+        <button class="btn btn-primary" id="btnConfirmar">Confirmar</button>
+      
+
+
+    </div>
+    <script>
+    $(document).ready(function () {
+    $('#btnConfirmar').click(function () {
+    // Obtém os valores dos equipamentos da tabela e soma os resultados
+    var totalConsumo = 0;
+    var totalQuantidade = 0;
+
+    $('table tbody tr').each(function () {
+    var quantidade = parseInt($(this).find('th').text());
+    var consumo = parseFloat($(this).find('td:eq(3)').text());
+
+    totalQuantidade += quantidade;
+    totalConsumo += quantidade * consumo;
+    });
+
+    // Redirecionar para a action "Resultado" com os valores calculados
+    window.location.href = "/Equipamento/Resultado?consumoTotal=" + totalConsumo + "&placasSolares=" + placasSolaresNecessarias;
+    });
+    });
+    </script>
+
     @Html.Partial("_LoginPartial")
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

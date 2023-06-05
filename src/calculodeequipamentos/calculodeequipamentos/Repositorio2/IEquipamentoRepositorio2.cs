@@ -6,8 +6,8 @@ namespace WebApplication2.Repositorio
     {
         EquipamentoModel ListarPorId(int id);
         List<EquipamentoModel> BuscarTodos2();
-        EquipamentoModel Adicionar2(EquipamentoModel equipamento);
-        EquipamentoModel Atualizar2(EquipamentoModel equipamento);
+        EquipamentoModel Adicionar2(EquipamentoModel equip);
+        EquipamentoModel Atualizar2(EquipamentoModel equip);
         bool ApagarReal(int id);
     }
 }

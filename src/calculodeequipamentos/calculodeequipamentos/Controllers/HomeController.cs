@@ -25,7 +25,17 @@ namespace calculodeequipamentos.Controllers
 			return View();
 		}
 
-		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        [HttpPost]
+        public IActionResult Resultado(double consumoTotal, int placasSolares)
+        {
+            // Armazene os valores no banco de dados ou faça qualquer outra operação necessária
+
+            // Retorne a view "Resultado" com os valores
+            return View("Resultado", new { ConsumoTotal = consumoTotal, PlacasSolares = placasSolares });
+        }
+
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
 		public IActionResult Error()
 		{
 			return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });

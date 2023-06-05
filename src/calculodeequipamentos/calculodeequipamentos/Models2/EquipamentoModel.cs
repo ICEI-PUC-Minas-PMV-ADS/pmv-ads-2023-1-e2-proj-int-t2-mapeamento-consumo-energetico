@@ -23,6 +23,10 @@ namespace WebApplication2.Models
         public int Quantidade { get; set; }
 
         public double Consumo { get; set; }
+
+        public double ConsumoTotal { get; set; }
+
+        public int PlacasSolares { get; set; }
     }
 
 }

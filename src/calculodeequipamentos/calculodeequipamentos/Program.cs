@@ -32,13 +32,13 @@ namespace calculodeequipamentos
 
             builder.Services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer
-                ("Server=calculoequipamentos.database.windows.net;Database=Calculo de Equipamentos DB;User Id=thiagoteste;Password=123456Aa@;"));
+                ("Data Source=DESKTOP-GFK2EGS\\;Initial Catalog=EquipamentosCadastrados; Integrated Security=True; Encrypt=False"));
             builder.Services.AddScoped<IEquipamentoRepositorio, EquipamentoRepositorio>();
 
 
             builder.Services.AddDbContext<AppDbContext2>(options =>
                options.UseSqlServer
-               ("Server=calculoequipamentos.database.windows.net;Database=Calculo de Equipamentos DB;User Id=thiagoteste;Password=123456Aa@;"));
+               ("Data Source=DESKTOP-GFK2EGS\\;Initial Catalog=MapeamentoConsumoEnergetico; Integrated Security=True; Encrypt=False"));
             builder.Services.AddScoped<IEquipamentoRepositorio2, EquipamentoRepositorio2>();
 
 

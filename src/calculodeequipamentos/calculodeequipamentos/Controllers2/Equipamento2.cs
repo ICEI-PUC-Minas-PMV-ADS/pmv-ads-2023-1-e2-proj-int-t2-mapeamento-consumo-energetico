@@ -58,5 +58,14 @@ namespace WebApplication2.Controllers
             _equipamentoRepositorio.Atualizar2(equip);
             return RedirectToAction("Index");
         }
+
+
+        [HttpPost]
+        public IActionResult RegistrarResultado(EquipamentoModel equip)
+        {
+            // Código para salvar o equipamento no banco de dados
+            _equipamentoRepositorio.Adicionar2(equip);
+            return RedirectToAction("Resultado", new { consumoTotal = equip.ConsumoTotal, placasSolares = equip.PlacasSolares });
+        }
     }
 }
