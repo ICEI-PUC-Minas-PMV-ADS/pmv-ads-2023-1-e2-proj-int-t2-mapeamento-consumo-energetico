@@ -38,6 +38,13 @@ namespace WebApplication2.Controllers
             return RedirectToAction("Index");
         }
 
+        public IActionResult Adicionar(int id)
+        {
+            return View();
+        }
+
+
+
         [HttpPost]
         public IActionResult Criar(EquipamentoModel equip)
         {

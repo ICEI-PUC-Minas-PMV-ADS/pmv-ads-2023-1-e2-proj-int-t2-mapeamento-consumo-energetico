@@ -9,13 +9,20 @@ namespace WebApplication2.Models
     public class EquipamentoModel
     {
         public int Id { get; set; }
+
         [Required(ErrorMessage = "Digite o nome do aparelho")]
         public string Nome { get; set; }
+
         [Required(ErrorMessage = "Digite o gasto em KHW do aparelho")]
-        public string Khw { get; set; }
+        public double Khw { get; set; }
+
         [Required(ErrorMessage = "Digite o tempo de uso do aparelho")]
-        public string Tempo { get; set; }
-        [Required(ErrorMessage = "Digite o tempo de uso do aparelho")]
-        public string Quantidade { get; set; }
+        public double Tempo { get; set; }
+
+        [Required(ErrorMessage = "Digite a quantidade do aparelho")]
+        public int Quantidade { get; set; }
+
+        public double Consumo { get; set; }
     }
+
 }

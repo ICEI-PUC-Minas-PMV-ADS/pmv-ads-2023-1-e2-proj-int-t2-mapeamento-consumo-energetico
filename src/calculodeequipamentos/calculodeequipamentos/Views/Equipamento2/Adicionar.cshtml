@@ -1,7 +1,7 @@
 ﻿@using WebApplication2.Models;
 @model EquipamentoModel
 @{
-    ViewData["Title"] = "Calculadora de Equipamentos";
+    ViewData["Title"] = "Adicionar novo Equipamento";
 }
 
 
@@ -14,7 +14,7 @@
 <body>
     <div class="calculadora">
         <h1>Adicionar novo Equipamento:</h1>
-        <form class="form-calc" asp-controller="Equipamento2" asp-action="RegistrarResultado" method="post">
+        <form class="form-calc" asp-controller="Equipamento" asp-action="RegistrarResultado" method="post">
             <div class="form-group">
                 <label class="label-calc" for="nome">Nome do Equipamento:</label>
                 <input asp-for="Nome" class="form-control" placeholder="Digite o nome do Equipamento" type="text">
