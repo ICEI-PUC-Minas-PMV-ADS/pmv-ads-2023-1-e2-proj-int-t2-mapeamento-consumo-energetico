@@ -25,10 +25,10 @@ O intuito do projeto é desenvolver uma aplicação que calcule o consumo de ene
 # Instruções de acesso
 
 Para acessar aplicação desenvolvida pelo grupo, é necessário seguir estes passos:
-- 1º - Acessar a aplicação por este [link](https://calculodeequipamentos.azurewebsites.net/);
-- 2º - Visualizar o menu e suas informações;
-- 3º - Escolher os equipamentos selecioná-los e realizar o cálculo;
-- 4º - Para ver o resultado é necessário fazer o cadastro e logar.
+- **1º** - Acessar a aplicação por este [link](https://calculodeequipamentos.azurewebsites.net/);
+- **2º** - Visualizar o menu e suas informações;
+- **3º** - Escolher os equipamentos selecioná-los e realizar o cálculo;
+- **4º** - Para ver o resultado é necessário fazer o cadastro e logar.
 
 # Documentação
 
