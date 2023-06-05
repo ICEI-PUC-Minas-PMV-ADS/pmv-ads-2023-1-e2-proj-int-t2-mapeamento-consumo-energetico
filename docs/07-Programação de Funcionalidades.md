@@ -25,7 +25,7 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 # Instruções de acesso
 
 Para acessar aplicação desenvolvida pelo grupo, é necessário seguir estes passos:
-1º - Acessar a aplicação por este [link](https://calculodeequipamentos.azurewebsites.net/);
-2º - Visualizar o menu e suas informações.
-3º - Escolher os equipamentos selecioná-los e realizar o cálculo.
-4º - Para ver o resultado é necessário fazer o cadastro e logar.
+- 1º - Acessar a aplicação por este [link](https://calculodeequipamentos.azurewebsites.net/);
+- 2º - Visualizar o menu e suas informações.
+- 3º - Escolher os equipamentos selecioná-los e realizar o cálculo.
+- 4º - Para ver o resultado é necessário fazer o cadastro e logar.
