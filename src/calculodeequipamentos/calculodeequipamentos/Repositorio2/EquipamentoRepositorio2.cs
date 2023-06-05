@@ -1,5 +1,4 @@
-﻿using calculodeequipamentos.Context;
-using calculodeequipamentos.Repositorio;
+﻿
 using WebApplication2.Context;
 using WebApplication2.Data;
 

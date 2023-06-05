@@ -1,5 +1,5 @@
 ﻿
-using calculodeequipamentos.Models;
+using WebApplication2.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
