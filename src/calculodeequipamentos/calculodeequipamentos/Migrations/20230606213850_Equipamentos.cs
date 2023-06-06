@@ -5,7 +5,7 @@
 namespace calculodeequipamentos.Migrations
 {
     /// <inheritdoc />
-    public partial class MapeamentoEnergetico : Migration
+    public partial class Equipamentos : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

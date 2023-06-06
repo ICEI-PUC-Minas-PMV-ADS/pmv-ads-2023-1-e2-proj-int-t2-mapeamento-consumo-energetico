@@ -11,8 +11,8 @@ using calculodeequipamentos.Context;
 namespace calculodeequipamentos.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230606144508_MapeamentoEnergetico")]
-    partial class MapeamentoEnergetico
+    [Migration("20230606213850_Equipamentos")]
+    partial class Equipamentos
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

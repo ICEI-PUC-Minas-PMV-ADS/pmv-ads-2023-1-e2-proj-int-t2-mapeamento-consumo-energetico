@@ -5,9 +5,15 @@ namespace calculodeequipamentos.Models
 {
     public class EquipamentoEletronico
     {
+        public EquipamentoEletronico(string nome)
+        {
+            Nome = nome;
+        }
+
         [Key]
         public int Id { get; set; }
 
+        [Required(ErrorMessage = "O campo Nome é obrigatório.")]
         public string Nome { get; set; }
 
         public int Quantidade { get; set; }
@@ -15,9 +21,7 @@ namespace calculodeequipamentos.Models
         public int TempoDeUso { get; set; }
         public double Consumo { get; set; }
 
-
         public double ConsumoTotal { get; set; }
-
         public int PlacasSolares { get; set; }
     }
 }

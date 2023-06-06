@@ -52,7 +52,7 @@
             document.getElementById("resultado").innerHTML = "O consumo total de " + quantidade + " equipamentos " + nome + " em " + tempodeuso + " horas é de " + consumo.toFixed(2) + " kWh.";
             document.getElementsByName("Consumo")[0].value = consumo.toFixed(2);
 
-            fetch('/EquipamentoEletronico', {
+            fetch('/Equipamento/Criar', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -62,15 +62,25 @@
                     Potencia: potencia,
                     TempoDeUso: tempodeuso,
                     Quantidade: quantidade,
-
                     Consumo: consumo.toFixed(2)
-
-
                 })
             })
-
+                .then(response => {
+                    if (response.ok) {
+                        // Os dados foram enviados com sucesso
+                        alert("Os dados foram enviados ao banco de dados.");
+                    } else {
+                        // Ocorreu um erro durante a requisição
+                        alert("Ocorreu um erro ao enviar os dados ao banco de dados.");
+                    }
+                })
+                .catch(error => {
+                    // Ocorreu um erro durante a requisição
+                    alert("Ocorreu um erro ao enviar os dados ao banco de dados.");
+                    console.error(error);
+                });
         }
-
     </script>
+
 </body>
 </html>
