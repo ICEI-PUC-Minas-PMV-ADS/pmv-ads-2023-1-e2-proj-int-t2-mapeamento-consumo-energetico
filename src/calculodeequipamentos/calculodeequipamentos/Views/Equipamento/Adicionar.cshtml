@@ -16,22 +16,22 @@
         <form class="form-calc" asp-controller="Equipamento" asp-action="Criar" method="post">
             <div class="form-group">
                 <label class="label-calc" for="nome">Nome do Equipamento:</label>
-                <input asp-for="Nome" class="form-control" placeholder="Digite o nome do Equipamento" type="text">
+                <input asp-for="Nome" name="Nome" class="form-control" placeholder="Digite o nome do Equipamento" type="text">
             </div>
             <div class="form-group">
                 <label class="label-calc" for="potencia">Potência do Equipamento (em watts):.</label>
-                <input asp-for="Potencia" class="form-control" placeholder="Digite a potência do Equipamento" type="number">
+                <input asp-for="Potencia" name="Potencia" class="form-control" placeholder="Digite a potência do Equipamento" type="number">
             </div>
             <div class="form-group">
                 <label class="label-calc" for="tempodeuso">Tempo de Uso (em horas):</label>
-                <input asp-for="TempoDeUso" class="form-control" placeholder="Digite o Tempo de Uso do Equipamento" type="number">
+                <input asp-for="TempoDeUso" name="TempoDeUso" class="form-control" placeholder="Digite o Tempo de Uso do Equipamento" type="number">
             </div>
             <div class="form-group">
                 <label class="label-calc" for="quantidade">Quantidade de equipamentos:</label>
-                <input asp-for="Quantidade" class="form-control" placeholder="Digite a quantidade de equipamentos" type="number">
+                <input asp-for="Quantidade" name="Quantidade" class="form-control" placeholder="Digite a quantidade de equipamentos" type="number">
             </div>
             <div class="form-group">
-                <input asp-for="Consumo" class="form-control" type="hidden">
+                <input asp-for="Consumo" name="Consumo" class="form-control" type="hidden">
             </div>
 
             <p id="resultado"></p>
