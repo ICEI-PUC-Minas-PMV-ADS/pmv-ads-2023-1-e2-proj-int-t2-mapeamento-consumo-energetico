@@ -2,28 +2,31 @@
 
 #nullable disable
 
-namespace calculodeequipamentos.Migrations.AppDbContext2Migrations
+namespace calculodeequipamentos.Migrations
 {
     /// <inheritdoc />
-    public partial class EquipCadastrados : Migration
+    public partial class MapeamentoEnergetico : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Equip",
+                name: "MapeamentoConsumo",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Khw = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Tempo = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Quantidade = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Quantidade = table.Column<int>(type: "int", nullable: false),
+                    Potencia = table.Column<int>(type: "int", nullable: false),
+                    TempoDeUso = table.Column<int>(type: "int", nullable: false),
+                    Consumo = table.Column<double>(type: "float", nullable: false),
+                    ConsumoTotal = table.Column<double>(type: "float", nullable: false),
+                    PlacasSolares = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Equip", x => x.Id);
+                    table.PrimaryKey("PK_MapeamentoConsumo", x => x.Id);
                 });
         }
 
@@ -31,7 +34,7 @@ namespace calculodeequipamentos.Migrations.AppDbContext2Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Equip");
+                name: "MapeamentoConsumo");
         }
     }
 }

@@ -10,7 +10,7 @@ namespace calculodeequipamentos.Data
         {
         }
 
-        public DbSet<EquipamentoEletronico> Equipamentos { get; set; }
+        public DbSet<EquipamentoEletronico> MapeamentoConsumo { get; set; }
 
         public static implicit operator ContextoEquipamento(AppDbContext v)
         {

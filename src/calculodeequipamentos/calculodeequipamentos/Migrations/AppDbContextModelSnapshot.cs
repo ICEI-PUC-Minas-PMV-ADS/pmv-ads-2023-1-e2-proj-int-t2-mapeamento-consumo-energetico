@@ -23,21 +23,37 @@ namespace calculodeequipamentos.Migrations
 
             modelBuilder.Entity("calculodeequipamentos.Models.EquipamentoEletronico", b =>
                 {
-                    b.Property<string>("Nome")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<double>("Consumo")
                         .HasColumnType("float");
 
+                    b.Property<double>("ConsumoTotal")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PlacasSolares")
+                        .HasColumnType("int");
+
                     b.Property<int>("Potencia")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantidade")
                         .HasColumnType("int");
 
                     b.Property<int>("TempoDeUso")
                         .HasColumnType("int");
 
-                    b.HasKey("Nome");
+                    b.HasKey("Id");
 
-                    b.ToTable("Equipamentos");
+                    b.ToTable("MapeamentoConsumo");
                 });
 #pragma warning restore 612, 618
         }
