@@ -2,8 +2,7 @@ using calculodeequipamentos.Context;
 using calculodeequipamentos.Repositorio;
 using calculodeequipamentos.Areas.Identity.Data;
 using Microsoft.EntityFrameworkCore;
-using WebApplication2.Context;
-using WebApplication2.Repositorio;
+
 
 
 
@@ -58,7 +57,7 @@ namespace calculodeequipamentos
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Equipamento}/{action=Index}/{id?}");
 
             app.MapRazorPages();
             app.Run();

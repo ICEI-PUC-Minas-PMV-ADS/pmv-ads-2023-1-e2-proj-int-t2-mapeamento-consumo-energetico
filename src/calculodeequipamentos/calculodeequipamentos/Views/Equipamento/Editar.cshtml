@@ -1,5 +1,5 @@
-﻿@using WebApplication2.Models;﻿
-@model EquipamentoModel
+﻿
+@model EquipamentoEletronico
 @{
     ViewData["Title"] = "Editar Equipamento";
 }
@@ -10,18 +10,18 @@
     <br />
 </div>
 
-<form asp-controller="ControllerEquipamentos" asp-action="Alterar" method="post">
+<form asp-controller="Equipamento" asp-action="Alterar" method="post">
     <div class="input-group mb-3">
         <span class="input-group-text" id="inputGroup-sizing-default">Nome do equipamento</span>
         <input type="text" asp-for="Nome" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
     </div>
     <div class="input-group mb-3">
         <span class="input-group-text" id="inputGroup-sizing-default">Tempo de uso diário (Horas)</span>
-        <input type="number" asp-for="Tempo" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        <input type="number" asp-for="TempoDeUso" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
     </div>
     <div class="input-group mb-3">
         <span class="input-group-text" id="inputGroup-sizing-default">Gastos (Khw)</span>
-        <input type="number" asp-for="Khw" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        <input type="number" asp-for="Potencia" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
     </div>
     <div class="input-group mb-3">
         <span class="input-group-text" id="inputGroup-sizing-default">Quantidade</span>
