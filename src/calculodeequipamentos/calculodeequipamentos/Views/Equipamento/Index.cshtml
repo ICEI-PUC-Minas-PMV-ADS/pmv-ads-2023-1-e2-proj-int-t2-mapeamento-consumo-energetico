@@ -1,4 +1,6 @@
-﻿﻿@model List<EquipamentoEletronico>
+﻿
+﻿
+@model List<EquipamentoEletronico>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -45,7 +47,7 @@
 
 
     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        <a class="btn btn-primary" role="button" asp-controller="Equipamento" asp-action="Adicionar">Adicionar novo equipamento</a>
+        <a class="btn btn-primary" role="button" asp-controller="Equipamento" asp-action="Calculadora">Adicionar novo equipamento</a>
 
     </div>
     <br />
@@ -108,7 +110,7 @@
         </script>
     }
 
-    @Html.Partial("_LoginPartial")
+   
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
