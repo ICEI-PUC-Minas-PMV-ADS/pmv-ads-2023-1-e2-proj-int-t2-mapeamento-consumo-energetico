@@ -12,7 +12,7 @@ namespace calculodeequipamentos.Context
         {
         }
 
-        public DbSet<EquipamentoEletronico> Equipamentos { get; set; }
+        public DbSet<EquipamentoEletronico> Equipamentoss { get; set; }
 
     }
 }

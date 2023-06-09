@@ -27,13 +27,21 @@ namespace calculodeequipamentos.Controllers
         {
             return View();
         }
-        public IActionResult Editar()
+        public IActionResult Editar(int id)
         {
-            return View();
+            EquipamentoEletronico equipamento = _equipamentoRepositorio.ListarPorId(id);
+            return View(equipamento);
         }
-        public IActionResult ApagarConfirmacao()
+        public IActionResult Apagar(int id)
         {
-            return View();
+            EquipamentoEletronico equipamento = _equipamentoRepositorio.ListarPorId(id);
+            return View(equipamento);
+        }
+
+        public IActionResult ApagarReal(int id)
+        {
+            _equipamentoRepositorio.ApagarReal(id);
+            return RedirectToAction("Index");
         }
         [HttpPost]
         public IActionResult RegistrarResultado(EquipamentoEletronico equipamento)
@@ -41,6 +49,26 @@ namespace calculodeequipamentos.Controllers
             _equipamentoRepositorio.Adicionar(equipamento);
             return RedirectToAction("Index");
         }
+
+        [HttpPost]
+        public IActionResult Alterar(EquipamentoEletronico equipamento)
+        {
+            _equipamentoRepositorio.Atualizar2(equipamento);
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult Resultado()
+        {
+            List<EquipamentoEletronico> equipamento = _equipamentoRepositorio.BuscarTodos();
+
+            double consumoTotal = equipamento.Sum(e => e.Consumo);
+            int placasSolares = (int)Math.Ceiling(consumoTotal / 300); // Cada placa solar gera 300 kWh por mês
+
+            ViewBag.ConsumoTotal = consumoTotal;
+            ViewBag.PlacasSolares = placasSolares;
+            return View();
+        }
+
     }
 }
 

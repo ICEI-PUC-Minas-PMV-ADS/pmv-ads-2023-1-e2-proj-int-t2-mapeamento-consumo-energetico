@@ -26,12 +26,17 @@
             <label class="label-calc" for="tempo">Tempo de Uso (em horas):</label>
             <input asp-for="TempoDeUso" class="form-control" placeholder="Digite o Tempo de Uso do Equipamento" type="number">
         </div>
+            <div class="form-group">
+                <label class="label-calc" for="quantidade">Quantidade de equipamentos:</label>
+                <input asp-for="Quantidade" class="form-control" placeholder="Digite a quantidade de equipamentos" type="number">
+            </div>
         <div class="form-group">
             <input asp-for="Consumo" class="form-control" type="hidden">
         </div>
 
         <p id="resultado"></p>
         <button class="button-calcular" onclick="calcularConsumo()" type="submit">Calcular Consumo</button>
+          
     </form>
     </div>
     <script>
@@ -40,10 +45,14 @@
             var potencia = parseFloat(document.getElementsByName("Potencia")[0].value);
             var tempo = parseFloat(document.getElementsByName("TempoDeUso")[0].value);
 
-            var consumo = (potencia * tempo) / 1000;
+            var quantidade = parseFloat(document.getElementsByName("Quantidade")[0].value);
 
-            document.getElementById("resultado").innerHTML = "O consumo do equipamento " + nome + " em " + tempo + " horas é de " + consumo.toFixed(2) + " kWh.";
+
+            var consumo = (potencia * tempo * quantidade) / 1000;
+
+            document.getElementById("resultado").innerHTML = "O consumo total de " + quantidade + " equipamentos " + nome + " em " + tempo + " horas é de " + consumo.toFixed(2) + " kWh.";
             document.getElementsByName("Consumo")[0].value = consumo.toFixed(2);
+
 
             fetch('/EquipamentoEletronico', {
                 method: 'POST',
@@ -54,6 +63,7 @@
                     Nome: nome,
                     Potencia: potencia,
                     TempoDeUso: tempo,
+                    Quantidade: quantidade,
                     Consumo: consumo.toFixed(2)
 
 
