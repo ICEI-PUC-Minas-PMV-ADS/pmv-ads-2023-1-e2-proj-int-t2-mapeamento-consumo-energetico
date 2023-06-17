@@ -1,11 +1,21 @@
 ﻿@page
 @model LoginModel
 
+
+<link href="~/css/sitelogineregist.css" rel="stylesheet" />
+<ul class="menu">
+    <li><a asp-page="/Home/Index">Início</a></li>
+    <li><a id="register" asp-area="Identity" asp-page="/Account/Register">Registrar</a></li>
+    <li><a id="login" asp-area="Identity" asp-page="/Account/Login">Login</a></li>
+</ul>
+
+<br/>
 @{
     ViewData["Title"] = "Login";
 }
 
-<h2>@ViewData["Title"]</h2>
+<ul class="box-shadow">
+    <h2>@ViewData["Title"]</h2></ul>
 
 <div class="row">
     <div class="col-md-4">
@@ -14,13 +24,15 @@
         <link href="~/css/bootstrap.rtl.min.css" rel="stylesheet" />
         <link href="~/css/bootstrap.rtl.css" rel="stylesheet" />
         <link href="~/css/bootstrap.css" rel="stylesheet" />
+        <ul class="box-shadow">
         <section>
+
             <form id="account" method="post">
                 <h8>Para receber o resultado é necessário ter uma conta no site! Faça seu login ou registre-se agora.</h8>
                 <hr />
 
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <div class="form-floating mb-3 mt-3">
+                <div stle = "center"class="form-floating mb-3 mt-3">
                     <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" />
                     <label asp-for="Input.Email" class="form-label"></label>
                     <span asp-validation-for="Input.Email" class="text-danger"></span>
@@ -55,6 +67,7 @@
                 </div>
             </form>
         </section>
+        </ul>
     </div>
 </div>
 

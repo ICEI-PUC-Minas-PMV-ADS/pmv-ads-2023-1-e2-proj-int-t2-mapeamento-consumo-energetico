@@ -20,6 +20,8 @@
 <body>
 
     <header>
+        @Html.Partial("_LoginPartial")
+
         <div class="container-texto">
 
             <img src="~/logo.jpe.jpe" class="logo-small" alt="Logo">
@@ -118,8 +120,7 @@
     });
     });
     </script>
-
-    @Html.Partial("_LoginPartial")
+  
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

@@ -1,10 +1,20 @@
 ﻿@page
 @model RegisterModel
+
+<link href="~/css/sitelogineregist.css" rel="stylesheet" />
+<ul class="menu">
+    <li><a asp-page="/Home/Index">Início</a></li>
+    <li><a id="register" asp-area="Identity" asp-page="/Account/Register">Registrar</a></li>
+    <li><a id="login" asp-area="Identity" asp-page="/Account/Login">Login</a></li>
+</ul>
+
+<br />
 @{
     ViewData["Title"] = "Registrar";
 }
 
-<h2>@ViewData["Title"]</h2>
+<ul class="box-shadow">
+    <h2>@ViewData["Title"]</h2></ul>
 
 <div class="row">
     <div class="col-md-4">
@@ -13,6 +23,8 @@
         <link href="~/css/bootstrap.rtl.min.css" rel="stylesheet" />
         <link href="~/css/bootstrap.rtl.css" rel="stylesheet" />
         <link href="~/css/bootstrap.css" rel="stylesheet" />
+        <ul class="box-shadow">
+
         <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
             <h7>Crie uma nova conta.</h7>
             <hr />
@@ -50,6 +62,7 @@
             <br />
             <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Registrar</button>
         </form>
+        </ul>
     </div>
 </div>
 
