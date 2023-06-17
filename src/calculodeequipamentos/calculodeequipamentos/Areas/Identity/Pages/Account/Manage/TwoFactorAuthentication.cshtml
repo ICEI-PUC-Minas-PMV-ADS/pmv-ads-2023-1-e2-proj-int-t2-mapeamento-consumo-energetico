@@ -8,6 +8,11 @@
 
 <partial name="_StatusMessage" for="StatusMessage" />
 <h3>@ViewData["Title"]</h3>
+
+<link href="~/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<link href="~/css/bootstrap.rtl.css" rel="stylesheet" />
+<link href="~/css/bootstrap.css" rel="stylesheet" />
 @{
     var consentFeature = HttpContext.Features.Get<ITrackingConsentFeature>();
     @if (consentFeature?.CanTrack ?? true)
