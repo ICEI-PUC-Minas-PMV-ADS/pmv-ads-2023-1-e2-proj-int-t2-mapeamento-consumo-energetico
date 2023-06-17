@@ -10,15 +10,26 @@
     <title>@ViewData["Title"] - calculodeequipamentos</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </head>
 
 <body>
+  
 
     <header>
+        <style>
+            body {
+                background-image: url('fundo.jpeg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+                min-height: 100vh;
+            }
+        </style>
+
         <div class="container-texto">
 
-            <img src="~/logo.jpe.jpe" class="logo-small" alt="Logo">
+            <img src=~/logo.jpe class="logo-small" alt="Logo">
 
             <h1>Quem Somos</h1>
             <p>
@@ -27,6 +38,7 @@
 
         </div>
 
+        <button type="button" class="btn btn-primary btn-lg">Inicio</button>
 
         <div class="container-texto2">
 
@@ -39,12 +51,7 @@
 
         </div>
 
-
-
-
     </header>
-
-
 
     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
         <a class="btn btn-primary" role="button" asp-controller="Equipamento" asp-action="Calculadora">Adicionar novo equipamento</a>

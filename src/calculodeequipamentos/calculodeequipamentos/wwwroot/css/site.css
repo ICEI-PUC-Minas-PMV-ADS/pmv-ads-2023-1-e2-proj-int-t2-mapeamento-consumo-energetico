@@ -1,4 +1,28 @@
 
+#botaoinicial {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: absolute;
+   
+}
+
+.logo-small {
+    width: 80px;
+    height: auto;
+}
+
+.logo-large {
+    width: 80px;
+    height: auto;
+}
+
+body {
+    background-image: url('fundo.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .form-calc {
     width: 400px;
     margin: 0 auto;
@@ -36,12 +60,21 @@
         background-color: #16a085;
     }
 
-#resultado {
+#resultado 
+{
     text-align: center;
     margin-top: 20px;
     font-size: 1.2em;
 }
 
+.classresultado {
+width: 400px;
+margin: 0 auto;
+background-color: white;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.7);
+}
 
 header {
     background-image: url("imagens/fundo.jpeg");
@@ -99,7 +132,7 @@ header {
     color: #383838;
 }
 
-p
+
 
 .container-texto > div {
     flex-grow: 1;
