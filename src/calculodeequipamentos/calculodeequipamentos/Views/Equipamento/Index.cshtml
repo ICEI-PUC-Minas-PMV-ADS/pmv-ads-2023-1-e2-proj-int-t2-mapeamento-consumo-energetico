@@ -10,48 +10,51 @@
     <title>@ViewData["Title"] - calculodeequipamentos</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b45d06f883.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  
+  <style>
+      #intro {
+        background-image: url("https://mdbootstrap.com/img/new/fluid/city/018.jpg");
+        height: 105vh;
+      }
+
+      .navbar .nav-link {
+        color: #fff !important;
+      }
+    </style>
 
     <header>
-        <style>
-            body {
-                background-image: url('fundo.jpeg');
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center center;
-                min-height: 100vh;
-            }
-        </style>
-
-        <div class="container-texto">
-
-            <img src=~/logo.jpe class="logo-small" alt="Logo">
-
-            <h1>Quem Somos</h1>
-            <p>
-                Nós do Grupo 02, do curso de Análise e Desenvolvimento de Sistemas, acreditamos que a preservação do meio ambiente é uma responsabilidade de todos, e nos dedicamos a oferecer soluções através da nossa Aplicação voltada para os cálculos do uso da energia solar, além de ser uma solução sustentável e econômica para as necessidades energéticas de todos. Pode ajudar a tornar o mundo um lugar melhor. Trabalhamos para levar a energia solar a cada vez mais pessoas e empresas, com um produto de alta qualidade e tecnologia de ponta. Estamos comprometidos com o futuro sustentável do planeta.
-            </p>
-
-        </div>
-
-        <button type="button" class="btn btn-primary btn-lg">Inicio</button>
-
-        <div class="container-texto2">
-
-            <h1>Consumo de Energia</h1>
-            <p>
-                A conscientização sobre o consumo de energia é fundamental para garantir a sustentabilidade do planeta.O uso de energia limpa e renovável como os painéis solares é uma alternativa cada vez mais importante para diminuir a nossa dependência de fontes de
-                energia não renováveis reduzir a poluição e preservar o meio ambiente.Os painéis solares são uma excelente opção para gerar energia de forma sustentável. Nosso sistema de calculo de consumo de energia com o uso de paineis solares
-                pode economizar até 50% no consumo de energia em sua casa ou empresa.
-            </p>
-
+        <div id="intro" class="bg-image shadow-2-strong">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.8);">
+                <div class="container d-flex align-items-center justify-content-center text-center h-100">
+                    <div class="text-white">
+                        <img width="190" height="190" src="/css/lamp-charge-svgrepo-com.svg"/>
+                        <h1 class="mb-3">Calculadora de equipamentos eletrodomésticos</h1>
+                        <br /> <br /> <br />
+                        <h5 class="mb-4"> Nós do Grupo 02, do curso de Análise e Desenvolvimento de Sistemas, acreditamos que a 
+                            preservação do meio ambiente é uma responsabilidade de todos, e nos dedicamos a oferecer soluções 
+                            através da nossa Aplicação voltada para os cálculos do uso da energia residencial</h5>
+                        <br /> <br /> <br /> <br /> 
+                        <img width="100" height="50" src="~/css/arrow-down-338-svgrepo-com.svg"/>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </header>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+
 
     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
         <a class="btn btn-primary" role="button" asp-controller="Equipamento" asp-action="Calculadora">Adicionar novo equipamento</a>
@@ -117,6 +120,38 @@
         </script>
     }
 
+
+    <footer class="bg-light text-lg-start">
+       
+
+
+        <div class="text-center py-4 align-items-center">
+            <p>Siga nossas redes</p>
+            <a href="https://www.youtube.com/" class="btn btn-primary m-1" role="button"
+               rel="nofollow" target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://www.facebook.com/" class="btn btn-primary m-1" role="button" rel="nofollow"
+               target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/" class="btn btn-primary m-1" role="button" rel="nofollow"
+               target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://github.com/" class="btn btn-primary m-1" role="button" rel="nofollow"
+               target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright
+            <a class="text-dark" href="https://calculodeequipamentos.azurewebsites.net/">calculodeequipamentos.com</a>
+        </div>
+
+    </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
