@@ -8,7 +8,14 @@
         Layout = "/Areas/Identity/Pages/_Layout.cshtml";
     }
 }
+<link href="~/css/sitelogineregist.css" rel="stylesheet" />
+<ul class="menu">
+    <li><a asp-page="/Home/Index">Início</a></li>
+    <li><a id="register" asp-area="Identity" asp-page="/Account/Register">Registrar</a></li>
+    <li><a id="login" asp-area="Identity" asp-page="/Account/Login">Login</a></li>
+</ul>
 
+<br />
 <h1>Configure sua conta</h1>
 
 <div>
