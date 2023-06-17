@@ -38,7 +38,7 @@ As observações e respostas do teste de usabilidade foram passadas aos integran
 | Como pode ser testado  | Ao acessar o site pela URL, o usuário deverá navegar por cada parte presente e testar suas funcionalidades e se está de fácil interatividade.|
 <br>
 
-| **Requisito Associado**| **RNF-005 - A aplicação interativa deve ser compatível com os navegadores Chrome, Opera, Edge, Mozilla Firefox, Brave e Safari.** |
+| **Requisito Associado**| **RNF-005 - A aplicação interativa deve ser compatível com o navegador Chrome, Microsoft Edge e Opera.** |
 |:---:	|:---:																	             |
 | Como pode ser testado  | Acessar a aplicação em diferentes navegadores e testar suas funcionalidades para verificar como a aplicação se comporta nesses cenários.|
 <br>
