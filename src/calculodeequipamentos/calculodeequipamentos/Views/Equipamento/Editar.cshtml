@@ -19,6 +19,9 @@
         <div class="calculadora">
             <h1>Alterar seu Equipamento:</h1>
             <form class="form-calc" asp-controller="Equipamento" asp-action="Alterar" method="post">
+
+                <input type="hidden" asp-for="Id" />
+
                 <div class="form-group">
                     <label class="label-calc" for="nome">Nome do Equipamento:</label>
                     <input asp-for="Nome" class="form-control" placeholder="Digite o nome do Equipamento" type="text">

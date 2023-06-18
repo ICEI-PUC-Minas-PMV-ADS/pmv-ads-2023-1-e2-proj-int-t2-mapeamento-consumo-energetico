@@ -30,7 +30,7 @@ namespace calculodeequipamentos
 
             builder.Services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer
-                ("Data Source=DESKTOP-GFK2EGS\\;Initial Catalog=EquipamentosCadastrados; Integrated Security=True; Encrypt=False"));
+                ("Data Source=DESKTOP-RJ49LG9\\;Initial Catalog=EquipamentosCadastrados; Integrated Security=True; Encrypt=False"));
             builder.Services.AddScoped<IEquipamentoRepositorio, EquipamentoRepositorio>();
 
 
