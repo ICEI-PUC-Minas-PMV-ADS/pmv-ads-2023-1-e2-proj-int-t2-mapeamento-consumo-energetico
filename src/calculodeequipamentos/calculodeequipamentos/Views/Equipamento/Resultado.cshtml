@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - calculodeequipamentos</title>
+    <title>@ViewData["Title"] Resultado - calculodeequipamentos</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
@@ -17,11 +17,32 @@
 
   
     <h2>Consumo Total: @ViewBag.ConsumoTotal kWh</h2><br />
-    
 
-    <h2>Número de Placas Solares Necessárias: @ViewBag.PlacasSolares</h2><br />
+
+        <h2>Número de Placas Solares Necessárias: @ViewBag.PlacasSolares</h2><br />
 
     </div>
-    <a href="@Url.Action("Index", "Equipamento")" class="btn btn-primary">Voltar</a>
+    <a href="@Url.Action("Index", "Equipamento")" class="button-calcular">Voltar</a>
    
+
+
+
+    <div class="dica-placas-solares">
+        <h2>💡 Dica: Utilize Placas Solares para Energia Sustentável 🌞</h2>
+        <p class="dica-descricao">
+            Você sabia que as placas solares podem trazer muitos benefícios para o seu lar ou empresa? Além de serem uma fonte limpa e renovável de energia, elas podem ajudar você a economizar dinheiro a longo prazo. Aqui estão algumas razões convincentes para considerar o uso de placas solares:
+        </p>
+        <ul class="dica-lista">
+            <li class="dica-item">Economia de Energia: As placas solares captam a luz solar e a convertem em eletricidade, reduzindo sua dependência da rede elétrica convencional e diminuindo sua conta de luz.</li>
+            <li class="dica-item">Sustentabilidade Ambiental: Ao optar pela energia solar, você estará contribuindo para a redução das emissões de carbono e ajudando a preservar o meio ambiente para futuras gerações.</li>
+            <li class="dica-item">Independência Energética: Com placas solares, você se torna menos dependente das flutuações nos preços da energia elétrica, garantindo uma fonte estável e confiável de eletricidade.</li>
+            <li class="dica-item">Valorização do Imóvel: Investir em placas solares pode aumentar o valor de revenda do seu imóvel, uma vez que a eficiência energética é um fator cada vez mais valorizado pelos compradores.</li>
+        </ul>
+        <p class="dica-conclusao">
+            Então, por que esperar? Faça a transição para a energia solar e comece a aproveitar todos esses benefícios. Contribua para um futuro mais sustentável e economize ao mesmo tempo!
+        </p>
+    </div>
+
+
+
  </body>

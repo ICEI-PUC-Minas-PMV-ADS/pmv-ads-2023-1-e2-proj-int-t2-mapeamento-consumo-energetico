@@ -3,30 +3,80 @@
 @{
     ViewData["Title"] = "Editar Equipamento";
 }
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - calculodeequipamentos</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+          <title>Editar Equipamento</title>
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    </head>
+    <body>
+        <div class="calculadora">
+            <h1>Alterar seu Equipamento:</h1>
+            <form class="form-calc" asp-controller="Equipamento" asp-action="Alterar" method="post">
+                <div class="form-group">
+                    <label class="label-calc" for="nome">Nome do Equipamento:</label>
+                    <input asp-for="Nome" class="form-control" placeholder="Digite o nome do Equipamento" type="text">
+                </div>
+                <div class="form-group">
+                    <label class="label-calc" for="potencia">Potência do Equipamento (em watts):.</label>
+                    <input asp-for="Potencia" class="form-control" placeholder="Digite a potência do Equipamento" type="number">
+                </div>
+                <div class="form-group">
+                    <label class="label-calc" for="tempo">Tempo de Uso (em horas):</label>
+                    <input asp-for="TempoDeUso" class="form-control" placeholder="Digite o Tempo de Uso do Equipamento" type="number">
+                </div>
+                <div class="form-group">
+                    <label class="label-calc" for="quantidade">Quantidade de equipamentos:</label>
+                    <input asp-for="Quantidade" class="form-control" placeholder="Digite a quantidade de equipamentos" type="number">
+                </div>
+                <div class="form-group">
+                    <input asp-for="Consumo" class="form-control" type="hidden">
+                </div>
 
-<div class="text-center">
+                <p id="resultado"></p>
+                <button class="button-calcular" onclick="calcularConsumo()" type="submit">Alterar Equipamento</button>
 
-    <h1 class="display-4">Editar equipamento</h1>
-    <br />
-</div>
+            </form>
+        </div>
+        <script>
+            function calcularConsumo() {
+                var nome = document.getElementsByName("Nome")[0].value;
+                var potencia = parseFloat(document.getElementsByName("Potencia")[0].value);
+                var tempo = parseFloat(document.getElementsByName("TempoDeUso")[0].value);
 
-<form asp-controller="Equipamento" asp-action="Alterar" method="post">
-    <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default">Nome do equipamento</span>
-        <input type="text" asp-for="Nome" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-    </div>
-    <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default">Tempo de uso diário (Horas)</span>
-        <input type="number" asp-for="TempoDeUso" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-    </div>
-    <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default">Gastos (Khw)</span>
-        <input type="number" asp-for="Potencia" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-    </div>
-    <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default">Quantidade</span>
-        <input type="number" asp-for="Quantidade" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-    </div>
-    <button type="submit" class="btn btn-primary">Adicionar</button>
-    <a class="btn btn-secondary" asp-controller="Equipamento" asp-action="Index">Voltar</a>
-</form>
+                var quantidade = parseFloat(document.getElementsByName("Quantidade")[0].value);
+
+
+                var consumo = (potencia * tempo * quantidade) / 1000;
+
+                document.getElementById("resultado").innerHTML = "O consumo total de " + quantidade + " equipamentos " + nome + " em " + tempo + " horas é de " + consumo.toFixed(2) + " kWh.";
+                document.getElementsByName("Consumo")[0].value = consumo.toFixed(2);
+
+
+                fetch('/EquipamentoEletronico', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        Nome: nome,
+                        Potencia: potencia,
+                        TempoDeUso: tempo,
+                        Quantidade: quantidade,
+                        Consumo: consumo.toFixed(2)
+
+
+                    })
+                })
+
+            }
+
+        </script>
+    </body>
+</html>

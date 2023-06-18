@@ -43,8 +43,7 @@ namespace calculodeequipamentos.Repositorio
             equipamentoDb.TempoDeUso = equipamento.TempoDeUso;
             equipamentoDb.Quantidade = equipamento.Quantidade;
             equipamentoDb.Consumo = equipamento.Consumo;
-            equipamentoDb.ConsumoTotal = equipamento.ConsumoTotal;
-            equipamentoDb.PlacasSolares = equipamento.PlacasSolares;
+          
 
             _bancoContext.Equipamentoss.Update(equipamentoDb);
             _bancoContext.SaveChanges();

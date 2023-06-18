@@ -15,12 +15,16 @@ body {
 
 }
 
+
+
+
 .form-calc {
     width: 400px;
     margin: 0 auto;
     background-color: #fff;
     padding: 0px;
     border-radius: 5px;
+    border: solid 10px white;
     box-shadow: 0 2px 5px rgba(0,0,0,0.7);
 }
 
@@ -46,6 +50,7 @@ body {
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
+    text-decoration: none;
 }
 
     .button-calcular:hover {
@@ -245,3 +250,39 @@ footer {
 }
 
 
+.dica-placas-solares {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50px;
+    
+   
+}
+
+    .dica-placas-solares h2 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+.dica-descricao {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.dica-lista {
+    list-style-type: disc;
+    color: #555;
+    margin-left: 30px;
+}
+
+.dica-item {
+    margin-bottom: 5px;
+}
+
+.dica-conclusao {
+    color: #666;
+    font-style: italic;
+    margin-top: 15px;
+}
