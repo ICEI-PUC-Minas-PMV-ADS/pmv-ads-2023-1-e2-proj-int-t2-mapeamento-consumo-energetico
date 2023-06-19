@@ -81,3 +81,11 @@
 |Critério de Êxito | - O perfil deve ser cadastrado com os dados salvos. <br> - Apresentar as alterações que podem ser feitas no dados gravados do perfil cadastrado. |
 |  	|  	|<br>
 
+
+|**Caso de Teste** 	| **CT-09 – Calcular Valores** 	|
+|:---:	|:---:	|
+|Requisito Associado 	| RF-009	A aplicação deve conter um infromativo dos benefícios das placas solares no resultado|
+|Objetivo do Teste 	| Verificar se o usuário consegue logar na aplicação. E alterar os dados do perfil que foram salvos.|
+|Passos 	| 1) Acessar o navegador; <br> 2) Informar o endereço do site; <br> 3) Visualizar a página e clicar em "calcular"; <br> 4) Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, senha, confirmação de senha); <br> 5) Clicar em "Calcular".  |
+|Critério de Êxito | - O perfil deve ser cadastrado com os dados salvos. <br> - Apresentar as alterações que podem ser feitas no dados gravados do perfil cadastrado. |
+|  	|  	|<br>
