@@ -27,12 +27,13 @@
     </style>
 
     <header>
+        @Html.Partial("_LoginPartial")
         <div class="inicio">
         <a   asp-controller="Equipamento" asp-action="Index">
                 <img class="login" src="img/icons8-home.svg" />
             <span class="span-inicio">Início</span>
         </a>
-            <a asp-controller="HomeController" asp-action="ILogger">
+            <a>
 
                 <img class="login" src="img/icons8-person-64.png" />
                 <span class="span-inicio">Login</span>

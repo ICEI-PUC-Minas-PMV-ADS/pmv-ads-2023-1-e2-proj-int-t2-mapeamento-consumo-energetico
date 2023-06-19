@@ -1,0 +1,29 @@
+﻿﻿@using Microsoft.AspNetCore.Identity
+@using calculodeequipamentos.Areas.Identity.Data
+<link href="~/css/sitelogineregist.css" rel="stylesheet" />
+
+@inject SignInManager<UsuarioModel> SignInManager
+@inject UserManager<UsuarioModel> UserManager
+<ul class="navbar-nav">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <link href="~/css/sitelogineregist.css" rel="stylesheet" />
+        <ul class="menu">
+            <li><a id="manage" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Olá, @UserManager.GetUserName(User)!</a></li>
+
+            <li>
+                <form id="logoutForm" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                    <a><button id="logout" type="submit" class="nav-link btn btn-link text-dark">Sair</button></a>
+                </form>
+        </ul>
+    }
+    else
+    {
+        <link href="~/css/sitelogineregist.css" rel="stylesheet" />
+        <ul class="menu">
+            <li><a asp-page="/Home/Index">Início</a></li>
+            <li><a id="register" asp-area="Identity" asp-page="/Account/Register">Registrar</a></li>
+            <li><a id="login" asp-area="Identity" asp-page="/Account/Login">Login</a></li>
+        </ul>
+    }
+</ul>
