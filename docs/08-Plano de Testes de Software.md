@@ -73,7 +73,7 @@
 |  	|  	|<br>
 
 
-|**Caso de Teste** 	| **CT-08 – Calcular Valores** 	|
+|**Caso de Teste** 	| **CT-08 – Inclusão de Equipamentos** 	|
 |:---:	|:---:	|
 |Requisito Associado 	| RF-008	A aplicação deve permitir que o usuário inclua seus equipamentos na aplicação. |
 |Objetivo do Teste 	| Verificar se o usuário consegue adicionar seus equipamentos na aplicação.|
