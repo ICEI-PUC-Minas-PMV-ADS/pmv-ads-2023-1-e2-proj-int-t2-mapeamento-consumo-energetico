@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0PWCp2cFhaQDR9wr0Zg5w2rsCGqsey4oF+Erg+VbMy8=",
+  "Hash": "YiZtjRyhdbpmiPxhe+TsimIdYyopciQiDwtqRjsEwJA=",
   "Source": "calculodeequipamentos",
   "BasePath": "_content/calculodeequipamentos",
   "Mode": "Default",
@@ -746,6 +746,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\icons8-person-64.png"
+    },
+    {
+      "Identity": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\img\\icons8-register-50.png",
+      "SourceId": "calculodeequipamentos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\",
+      "BasePath": "_content/calculodeequipamentos",
+      "RelativePath": "img/icons8-register-50.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icons8-register-50.png"
     },
     {
       "Identity": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\img\\person-circle.svg",

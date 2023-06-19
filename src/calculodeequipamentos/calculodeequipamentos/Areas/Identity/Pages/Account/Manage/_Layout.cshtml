@@ -1,0 +1,45 @@
+﻿@{
+    if (ViewData.TryGetValue("ParentLayout", out var parentLayout) && parentLayout !=  null)
+    {
+        Layout = parentLayout.ToString();
+    }
+    else
+    {
+        Layout = "/Areas/Identity/Pages/_Layout.cshtml";
+    }
+}
+@inject UserManager<UsuarioModel> UserManager
+@inject SignInManager<UsuarioModel> SignInManager
+
+<link href="~/css/sitelogineregist.css" rel="stylesheet" />
+<ul class="menu">
+    <li><a asp-page="/Home/Index">Início</a></li>
+    
+    <li><a id="manage" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Olá, @UserManager.GetUserName(User)!</a></li>
+    @if (SignInManager.IsSignedIn(User)){
+    <li>
+        <form id="logoutForm" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+            <a><button id="logout" type="submit" class="nav-link btn btn-link text-dark">Sair</button></a>
+        </form>
+    </li>
+    }
+</ul>
+
+<h1>Configure sua conta</h1>
+
+<div>
+    <h5>Altere os dados da sua conta.</h5>
+    <hr />
+    <div class="row">
+        <div class="col-md-3">
+            <partial name="_ManageNav" />
+        </div>
+        <div class="col-md-9">
+            @RenderBody()
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @RenderSection("Scripts", required: false)
+}
