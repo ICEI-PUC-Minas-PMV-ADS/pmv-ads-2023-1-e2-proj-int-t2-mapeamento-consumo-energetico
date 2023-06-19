@@ -61,17 +61,13 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |ID        | Descrição do Requisito  | Prioridade         |
 |----------|-----------------------------------------|----|
 |RF-001    | A aplicação deve permitir que o usuário empresarial inclua dados de consumo, como tempo de uso e gasto em WH dos equipamentos. | ALTA  | 
-|RF-002    | A aplicação deve permitir que o usuário crie uma conta e escolha entre perfil residencial ou empresarial.| MÉDIA |
-|RF-003    | A aplicação deve apresentar de forma clara para o usuário residencial uma listagem de equipamentos eletroeletrônicos e eletroeletrônicos e sua média de consumo em WH.| ALTA | 
-|RF-004    | A aplicação deve permitir ao usuário incluir o tempo de uso médio de cada equipamento ou eletrodoméstico em minutos.| MÉDIA |
-|RF-005    | A aplicação deve calcular valores a serem pagos na fatura de energia elétrica.| MÉDIA | 
-|RF-006    | A aplicação deve gerar um relatório com estimativa de valores mensais de acordo com equipamentos eletroeletrônicos e eletrodomésticos utilizados pelo usuário. | ALTA  |
-|RF-007    | A aplicação deve apresentar uma tabela com os insumos necessários para implementação de um sistema fotovoltaico. | BAIXA | 
-|RF-008    | A aplicação deve apresentar um catálogo de empresas parceiras onde o usuário pode solicitar orçamentos para compra do sistema fotovoltaico.| BAIXA |
-|RF-009    | A aplicação deve gerar um orçamento dos valores das placas fotovoltaicas. | BAIXA |
-|RF-010    | A aplicação deve gerar um informativo sugerindo que o usuário realize a análise de valores reais e estimados pela aplicação, com o intuito de alertar ao cliente sobre possíveis problemas na rede elétrica ou em seus equipamentos eletroeletrônicos. | BAIXA |
-|RF-011    | A aplicação deve calcular os valores a partir dos dados de uso dos equipamentos informados pelo usuário empresarial.| ALTA  | 
-|RF-012    | A aplicação deve permitir que o usuário crie uma conta e consiga realizar seu login. | ALTA |
+|RF-002    | A aplicação deve permitir que o usuário edite e apague equipamentos. | ALTA  | 
+|RF-003    | A aplicação deve permitir ao usuário incluir o tempo de uso médio de cada equipamento ou eletrodoméstico em horas.| MÉDIA |
+|RF-004    | A aplicação deve gerar um relatório com estimativa de valores mensais de acordo com equipamentos eletroeletrônicos e eletrodomésticos utilizados pelo usuário. | ALTA  |
+|RF-005    | A aplicação deve apresentar um resultado com os insumos necessários para implementação de um sistema fotovoltaico. | BAIXA | 
+|RF-006    | A aplicação deve calcular os valores a partir dos dados de uso dos equipamentos informados pelo usuário empresarial.| ALTA  | 
+|RF-007    | A aplicação deve permitir que o usuário crie uma conta e consiga realizar seu login. | ALTA |
+|RF-008    | A aplicação deve permitir que o usuário inclua seus equipamentos na aplicação. | ALTA |
 ### Requisitos não Funcionais
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
 
