@@ -68,6 +68,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-006    | A aplicação deve calcular os valores a partir dos dados de uso dos equipamentos informados pelo usuário empresarial.| ALTA  | 
 |RF-007    | A aplicação deve permitir que o usuário crie uma conta e consiga realizar seu login. | ALTA |
 |RF-008    | A aplicação deve permitir que o usuário inclua seus equipamentos na aplicação. | ALTA |
+|RF-009    | A aplicação deve permitir conter um infromativo dos benefícios das placas solares no resultado | BAIXA|
 ### Requisitos não Funcionais
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
 
