@@ -161,6 +161,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\img\\icons8-home.svg",
+      "PackagePath": "staticwebassets\\img\\icons8-home.svg"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\img\\icons8-person-64.png",
+      "PackagePath": "staticwebassets\\img\\icons8-person-64.png"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\img\\person-circle.svg",
+      "PackagePath": "staticwebassets\\img\\person-circle.svg"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\img\\person-circlee.svg",
+      "PackagePath": "staticwebassets\\img\\person-circlee.svg"
+    },
+    {
       "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

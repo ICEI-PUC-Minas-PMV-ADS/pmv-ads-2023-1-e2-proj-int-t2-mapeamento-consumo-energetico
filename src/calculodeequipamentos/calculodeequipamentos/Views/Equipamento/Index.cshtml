@@ -28,10 +28,26 @@
     </style>
 
     <header>
+        <div class="inicio">
+        <a   asp-controller="Equipamento" asp-action="Index">
+                <img class="login" src="img/icons8-home.svg" />
+            <span class="span-inicio">Início</span>
+        </a>
+        <a asp-controller="Equipamento" asp-action="Index">
+
+                <img class="login" src="img/icons8-person-64.png" />
+                <span class="span-inicio">Login</span>
+            </a>
+
+        </div>
+
         <div id="intro" class="bg-image shadow-2-strong">
             <div class="mask" style="background-color: rgba(0, 0, 0, 0.8);">
                 <div class="container d-flex align-items-center justify-content-center text-center h-100">
                     <div class="text-white">
+
+               
+
                         <img width="190" height="190" src="/css/lamp-charge-svgrepo-com.svg"/>
                         <h1 class="mb-3">Calculadora de equipamentos eletrodomésticos</h1>
                         <br /> <br /> <br />

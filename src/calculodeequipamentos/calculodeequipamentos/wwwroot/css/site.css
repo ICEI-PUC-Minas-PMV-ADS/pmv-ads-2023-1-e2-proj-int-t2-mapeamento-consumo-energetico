@@ -16,7 +16,41 @@ body {
 }
 
 
+.inicio{
 
+    display:flex;
+    justify-content:space-between;
+    margin:auto;
+    font-size:35px;
+    align-items:center;
+    flex-direction:row;
+    vertical-align:middle;
+    width:20%;
+   
+
+
+}
+
+    .inicio a {
+        text-decoration: none;
+        color: white;
+        align-items:center;
+        display:flex;
+        text-align:center;
+
+     
+        
+    }
+    .span-inicio{
+      margin-top:10px;
+    }
+  
+
+.login {
+    vertical-align: middle;
+    height: 45px;
+    padding-right: 10px;
+}
 
 .form-calc {
     width: 400px;
