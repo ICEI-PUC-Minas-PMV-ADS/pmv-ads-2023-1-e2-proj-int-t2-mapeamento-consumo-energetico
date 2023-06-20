@@ -1,0 +1,433 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\calculodeequipamentos.bundle.scp.css",
+      "PackagePath": "staticwebassets\\calculodeequipamentos.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\arrow-down-338-svgrepo-com.svg",
+      "PackagePath": "staticwebassets\\css\\arrow-down-338-svgrepo-com.svg"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\fundo.jpeg",
+      "PackagePath": "staticwebassets\\css\\fundo.jpeg"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\lamp-charge-svgrepo-com.svg",
+      "PackagePath": "staticwebassets\\css\\lamp-charge-svgrepo-com.svg"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\logo.jpe",
+      "PackagePath": "staticwebassets\\css\\logo.jpe"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\css\\siteLoginERegist.css",
+      "PackagePath": "staticwebassets\\css\\siteLoginERegist.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\img\\icons8-home.svg",
+      "PackagePath": "staticwebassets\\img\\icons8-home.svg"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\img\\icons8-person-64.png",
+      "PackagePath": "staticwebassets\\img\\icons8-person-64.png"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\img\\icons8-register-50.png",
+      "PackagePath": "staticwebassets\\img\\icons8-register-50.png"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\img\\person-circle.svg",
+      "PackagePath": "staticwebassets\\img\\person-circle.svg"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\img\\person-circlee.svg",
+      "PackagePath": "staticwebassets\\img\\person-circlee.svg"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\milos\\programaçao\\pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico3\\src\\calculodeequipamentos\\calculodeequipamentos\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.calculodeequipamentos.props",
+      "PackagePath": "build\\calculodeequipamentos.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.calculodeequipamentos.props",
+      "PackagePath": "buildMultiTargeting\\calculodeequipamentos.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.calculodeequipamentos.props",
+      "PackagePath": "buildTransitive\\calculodeequipamentos.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.calculodeequipamentos.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -10,6 +10,7 @@ namespace calculodeequipamentos.Context
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
+            Database.EnsureCreated();
         }
 
         public DbSet<EquipamentoEletronico> Equipamentoss { get; set; }

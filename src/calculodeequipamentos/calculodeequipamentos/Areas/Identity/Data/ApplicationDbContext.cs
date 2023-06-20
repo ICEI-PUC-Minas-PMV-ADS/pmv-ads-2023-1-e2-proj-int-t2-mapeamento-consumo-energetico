@@ -10,6 +10,8 @@ public class ApplicationDbContext : IdentityDbContext<UsuarioModel>
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
         : base(options)
     {
+        Database.EnsureCreated();
+
     }
 
     protected override void OnModelCreating(ModelBuilder builder)

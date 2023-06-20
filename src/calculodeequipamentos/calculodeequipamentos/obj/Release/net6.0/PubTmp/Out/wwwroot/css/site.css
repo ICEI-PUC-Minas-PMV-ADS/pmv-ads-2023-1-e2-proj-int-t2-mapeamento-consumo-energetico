@@ -1,0 +1,323 @@
+
+
+.logo-small {
+    width: 80px;
+    height: auto;
+}
+
+.logo-large {
+    width: 80px;
+    height: auto;
+}
+
+body {
+    background-color: cadetblue;
+
+}
+
+
+.inicio{
+
+    display:flex;
+    justify-content:space-between;
+    margin: auto;
+    font-size:35px;
+    align-items:center;
+    flex-direction:row;
+    vertical-align:middle;
+    width:20%;
+   
+   
+
+
+}
+
+    .d-flex a {
+        text-decoration: none;
+        color: white;
+        align-items:center;
+        display:flex;
+        text-align:center;
+        font-size: 30px;
+     
+        
+    }
+    .span-inicio{
+      margin-top:10px;
+    }
+  
+
+.login {
+    vertical-align: middle;
+    height: 35px;
+    padding-right: 10px;
+}
+
+.form-calc {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 0px;
+    border-radius: 5px;
+    border: solid 10px white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.7);
+}
+
+.label-calc {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.button-calcular {
+    background-color: #1abc9c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+    .button-calcular:hover {
+        background-color: #16a085;
+    }
+
+#resultado 
+{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.classresultado {
+width: 400px;
+margin: 0 auto;
+background-color: white;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.7);
+}
+
+
+
+.carousel {
+    margin-left: 160px;
+    margin-top: 40px;
+    width: 500px;
+    height: 430px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(176, 223, 255, 1);
+}
+
+@media (min-width: 992px) {
+    #intro {
+        margin-top: -58.59px;
+    }
+}
+
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: 10%;
+    transform: translateY(-5%);
+}
+
+
+/*.container-texto2 {
+    margin-top: 40px;
+    width: 500px;
+    height: 430px;
+    font-size: 20px;
+    margin-left: 160px;
+    background-color: rgba(176, 223, 255, 1);
+    color: #383838;
+}
+
+.container-texto {
+    margin-top: 40px;
+    width: 500px;
+    height: 430px;
+    font-size: 17px;
+    margin-left: 40px;
+    background-color: rgba(176, 223, 255, 1);
+    color: #383838;
+}
+
+
+
+.container-texto > div {
+    flex-grow: 1;
+}
+
+    */
+
+
+
+.logo {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+/* .carousel {
+    margin-top: 25px;
+} */
+
+
+/* Ricardo */
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+    .container select {
+        width: 290px;
+        height: 200px;
+        border-radius: 5px;
+        margin-top: 0px;
+        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.7);
+        -webkit-appearance: button;
+        appearance: button;
+        outline: none;
+    }
+
+.item select {
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+}
+
+    .item select option {
+        padding: 5px;
+    }
+
+.container select option:checked {
+    background-color: #d3d2d2f6;
+    color: #0000006c;
+}
+
+main {
+    background-color: #349eb1;
+    width: 100%;
+    height: 500px;
+}
+
+.equipamentos-selecionados {
+    background-color: white;
+    width: 80%;
+    height: 110px;
+    display: flex;
+    margin-top: 130px;
+    margin-bottom: 25px;
+    position: relative;
+    margin-left: 90px;
+}
+
+.container-button {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.confirmar {
+    position: absolute;
+    color: rgba(8, 0, 78, 0.911);
+    left: 1590px;
+    z-index: 1;
+    width: 140px;
+    height: 110px;
+    text-align: center;
+    background-color: #96cbe0;
+    font-weight: bold;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+}
+
+
+.item {
+    width: 400px;
+    height: 200px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Ricardo */
+
+
+section {
+    width: 100%;
+    height: 600px;
+    background-color: orange;
+}
+
+
+footer {
+    width: 100%;
+    height: 0px;
+    background-color: yellow;
+}
+
+
+.dica-placas-solares {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50px;
+    
+   
+}
+
+    .dica-placas-solares h2 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+.dica-descricao {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.dica-lista {
+    list-style-type: disc;
+    color: #555;
+    margin-left: 30px;
+}
+
+.dica-item {
+    margin-bottom: 5px;
+}
+
+.dica-conclusao {
+    color: #666;
+    font-style: italic;
+    margin-top: 15px;
+}

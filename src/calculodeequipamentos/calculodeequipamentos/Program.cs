@@ -23,14 +23,14 @@ namespace calculodeequipamentos
             var connectionString = builder.Configuration.GetConnectionString("ApplicationDbContextConnection") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContextConnection' not found.");
 
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer("Data Source=DESKTOP-GFK2EGS\\;Initial Catalog=EquipamentosCadastrados; Integrated Security=True; Encrypt=False"));
+            options.UseSqlServer("Server=mapeamentoconsumo.database.windows.net\\;Database=MapeaementoConsumoEnergetico;User Id=ricardo;Password=12345#GG;"));
 
             builder.Services.AddDefaultIdentity<UsuarioModel>(options => options.SignIn.RequireConfirmedAccount = true)
             .AddEntityFrameworkStores<ApplicationDbContext>();
 
             builder.Services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer
-                ("Data Source=DESKTOP-GFK2EGS\\;Initial Catalog=EquipamentosCadastrados; Integrated Security=True; Encrypt=False"));
+                ("Server=mapeamentoconsumo.database.windows.net\\;Database=MapeaementoConsumoEnergetico;User Id=ricardo;Password=12345#GG;"));
             builder.Services.AddScoped<IEquipamentoRepositorio, EquipamentoRepositorio>();
 
 
