@@ -1,0 +1,24 @@
+message: Please cite this software using these metadata.
+title: Mapeamento de Consumo de Energia
+authors:
+  - family-names: de Sousa Gonçalves
+    given-names: Jadir
+  - family-names: Costa Junior
+    given-names: Joanes
+  - family-names: Silva Coutinho
+    given-names: Luisa
+  - family-names: Fonseca Pereira
+    given-names: Ricardo
+  - family-names: Henrique de Oliveira Souza
+    given-names: Thiago
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Wilson Da Costa
+    given-names: José
+keywords:
+  - Mapeamento
+  - Consumo
+  - Energia
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t2-mapeamento-consumo-energetico
+version: 1.0.0
+date-released: 2023-02-01
